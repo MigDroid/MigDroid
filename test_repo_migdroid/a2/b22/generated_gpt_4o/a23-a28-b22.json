@@ -1,0 +1,142 @@
+[
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/list_content",
+        "text": "",
+        "content-desc": "Sample Todo, 3 tasks",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[11,1151][1069,1283]",
+        "children": [
+            {
+                "class": "android.view.View",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/name_background",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[11,1151][1069,1283]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/list_name",
+                "text": "Sample Todo",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,1151][409,1283]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/list_task_counter",
+                "text": "3",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[1014,1191][1036,1244]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/new_todo_fab",
+        "text": "",
+        "content-desc": "Add a task",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[882,2076][1036,2230]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/create_task_edit_text",
+        "text": "Add a task",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[165,1903][901,1962]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/task_content",
+        "text": "",
+        "content-desc": "Item 1 of 4,  task Sample Todo",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,310][1058,486]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/task_content",
+        "text": "",
+        "content-desc": "Item 1 of 4,  task Sample Todo",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,310][1058,486]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    }
+]

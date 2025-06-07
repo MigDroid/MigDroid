@@ -1,0 +1,7 @@
+Functionality Under Test: Test the browser's ability to navigate to a specified URL and load the page successfully.
+Test Steps: 
+1. Dismiss initial prompts. [Click "Not now" button three times to dismiss prompts].
+2. Focus on the address bar. [Click "Search or enter address" bar to focus input].
+3. Navigate to UCI website. [Send keys "https://www.ics.uci.edu" to navigate to website].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is a logo.

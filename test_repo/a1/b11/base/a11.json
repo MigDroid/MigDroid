@@ -1,0 +1,66 @@
+[
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "acr.browser.barebones:id/search",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a11",
+        "package": "acr.browser.barebones",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[182,153][843,273]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "acr.browser.barebones:id/search",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a11",
+        "package": "acr.browser.barebones",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[182,153][843,273]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a11",
+        "package": "acr.browser.barebones",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,336][863,422]"
+    }
+]

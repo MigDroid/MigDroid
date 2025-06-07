@@ -1,0 +1,8 @@
+Functionality Under Test: Adding a new task to the To-Do List in the Android app.
+Test Steps: 
+1. Bypass the tutorial by clicking the Skip button.
+2. Initiate task creation by clicking the Add button.
+3. Enter 'Sample Todo' as the task name in the input field.
+4. Save the new task by clicking the Okay button.
+
+Stop Condition: Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is the task name.

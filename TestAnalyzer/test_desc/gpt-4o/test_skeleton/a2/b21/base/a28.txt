@@ -1,0 +1,7 @@
+Functionality under test: The test verifies adding a new task "Sample Todo" to the task list by accessing the task list and performing the add operation.
+Semantic steps: 
+1. Peripheral Step: Grant notification permission. [Click the "Allow" button on the notification permission prompt].
+2. Peripheral Step: Bypass initial setup. [Click the "Skip" button on the initial setup screen].
+3. Key Step: Open task list. [Click the "Tasks" list from the main menu].
+4. Key Step: Add a new task. [Click the "Add" button, input "Sample Todo" in the text field, and click the "Add" button again].
+Stop condition: Got the observation that a TextView subject with text "Sample Todo" has appeared, it is a task item.

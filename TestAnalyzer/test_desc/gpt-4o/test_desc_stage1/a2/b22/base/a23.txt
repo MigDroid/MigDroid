@@ -1,0 +1,11 @@
+Functionality Under Test:
+Adding and deleting a task in the ToDo List app.
+Interaction Steps:
+1. Interaction: Click Skip Button to skip tutorial.
+2. Interaction: Click Plus Button to add new task.
+3. Interaction: Input 'Sample Todo' Text Field to enter task name.
+4. Interaction: Click Okay Button to save task.
+5. Interaction: Long Press Task Item to open options.
+6. Interaction: Click Delete Option to delete task.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has Disappear, it is the task name, which means the task was successfully deleted.

@@ -1,0 +1,8 @@
+Functionality under test: The script tests adding a task named 'Sample Todo' and then deleting it from the ToDo List app, ensuring the task management functionality works correctly.
+Semantic steps: 
+1. Peripheral Step: Grant notification permission and bypass initial setup. [Click the Allow button on the notification prompt, then click the Skip button on the setup screen].
+2. Peripheral Step: Open the task list. [Click on the Tasks option to open the task list screen].
+3. Key Step: Add a new task named 'Sample Todo'. [Click the New Task button, input 'Sample Todo', and click the Add Task button].
+4. Peripheral Step: Navigate back to the task list. [Press the system back key to return to the task list].
+5. Key Step: Delete the 'Sample Todo' task. [Long press on 'Sample Todo', click More Options, select Delete Task, and confirm by clicking the DELETE button].
+Stop condition: Got the observation that a text subject with 'Sample Todo' has Disappear, it is a task item.

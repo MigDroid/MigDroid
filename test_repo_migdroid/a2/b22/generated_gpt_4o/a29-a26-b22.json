@@ -1,0 +1,163 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/browse_text_note",
+        "text": "",
+        "content-desc": "Sample Todo\n. . ",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,334][529,538]",
+        "children": [
+            {
+                "class": "android.widget.FrameLayout",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[25,337][526,535]",
+                "children": [
+                    {
+                        "class": "android.widget.LinearLayout",
+                        "package": "com.google.android.keep",
+                        "activity": "",
+                        "resource-id": "com.google.android.keep:id/backdrop",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[25,337][526,535]",
+                        "children": [
+                            {
+                                "class": "android.widget.LinearLayout",
+                                "package": "com.google.android.keep",
+                                "activity": "",
+                                "resource-id": "com.google.android.keep:id/browse_note_interior_content",
+                                "text": "",
+                                "content-desc": "",
+                                "clickable": "false",
+                                "checkable": "false",
+                                "checked": "false",
+                                "focused": "false",
+                                "enabled": "true",
+                                "bounds": "[25,337][526,535]",
+                                "children": [
+                                    {
+                                        "class": "android.widget.TextView",
+                                        "package": "com.google.android.keep",
+                                        "activity": "",
+                                        "resource-id": "com.google.android.keep:id/index_note_title",
+                                        "text": "Sample Todo\n",
+                                        "content-desc": "",
+                                        "clickable": "false",
+                                        "checkable": "false",
+                                        "checked": "false",
+                                        "focused": "false",
+                                        "enabled": "true",
+                                        "bounds": "[69,381][482,491]"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/new_note_button",
+        "text": "Take a note\u2026",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,2142][552,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/editable_title",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,356][1041,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/editable_title",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,356][1041,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][154,290]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

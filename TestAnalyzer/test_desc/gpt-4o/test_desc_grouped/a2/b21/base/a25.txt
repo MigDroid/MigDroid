@@ -1,0 +1,7 @@
+Functionality Under Test: Adding a new item to the shopping list in the ToDo List app.
+Test Steps: 
+1. Open new item entry form. [Click Add button to open new item entry].
+2. Enter new item description 'Sample Todo'. [Input 'Sample Todo' in description field].
+3. Add the new item to the list. [Click Done button to add the new item].
+
+Stop Condition: Got the observation that a text subject with 'Sample Todo' has appeared, it is a list item.

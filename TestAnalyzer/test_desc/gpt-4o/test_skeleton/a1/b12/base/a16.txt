@@ -1,0 +1,7 @@
+Functionality under test: Test the browser's ability to navigate to the UCI ICS website, then to the UCI website, and return to the ICS site, verifying correct display and navigation.
+Semantic steps: 
+1. Peripheral Step: Dismiss notification prompt. [Click 'No thanks' button on the Chrome notifications prompt].
+2. Key Step: Navigate to ICS website. [Click search box, enter 'https://www.ics.uci.edu', and press enter].
+3. Key Step: Navigate to UCI website. [Click URL bar, enter 'https://uci.edu', and press enter].
+4. Key Step: Return to previous page. [Press the back button to return to the ICS website].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

@@ -1,0 +1,164 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/fab_add",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[863,1567][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/edit_text",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[26,63][1054,172]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/fab_add",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[863,1567][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.RelativeLayout",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/content",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[33,220][1047,364]",
+        "children": [
+            {
+                "class": "android.widget.LinearLayout",
+                "package": "douzifly.list",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[91,262][1015,321]",
+                "children": [
+                    {
+                        "class": "android.widget.RelativeLayout",
+                        "package": "douzifly.list",
+                        "activity": "",
+                        "resource-id": "",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[91,262][1015,316]",
+                        "children": [
+                            {
+                                "class": "android.widget.TextView",
+                                "package": "douzifly.list",
+                                "activity": "",
+                                "resource-id": "douzifly.list:id/txt_thing",
+                                "text": "Sample Todo",
+                                "content-desc": "",
+                                "clickable": "false",
+                                "checkable": "false",
+                                "checked": "false",
+                                "focused": "false",
+                                "enabled": "true",
+                                "bounds": "[91,262][1004,316]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.DetailActivity",
+        "resource-id": "douzifly.list:id/action_delete",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[311,1558][486,1743]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

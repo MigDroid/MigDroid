@@ -1,0 +1,88 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.jarfernandez.tipcalculator:id/billAmountEditText",
+        "text": "Bill Amount",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a50",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.jarfernandecom.jarfernandez.tipcalculator.activities.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "56.6"
+        ],
+        "long_clickable": "False",
+        "bounds": "[88,371][518,502]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.jarfernandez.tipcalculator:id/tipPercentEditText",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a50",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.jarfernandecom.jarfernandez.tipcalculator.activities.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "15"
+        ],
+        "long_clickable": "False",
+        "bounds": "[88,752][518,883]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.jarfernandez.tipcalculator:id/peopleEditText",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a50",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.jarfernandecom.jarfernandez.tipcalculator.activities.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "4"
+        ],
+        "long_clickable": "False",
+        "bounds": "[562,371][992,502]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.jarfernandez.tipcalculator:id/resultPerPersonTextView",
+        "text": "16.27",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a50",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.jarfernandecom.jarfernandez.tipcalculator.activities.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "16.27"
+        ],
+        "long_clickable": "False",
+        "bounds": "[409,1348][930,1415]"
+    }
+]

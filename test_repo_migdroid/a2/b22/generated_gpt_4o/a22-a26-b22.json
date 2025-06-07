@@ -1,0 +1,147 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "package": "com.google.android.keep",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.google.android.keep:id/new_note_button",
+        "text": "Take a note\u2026",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,2142][552,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.google.android.keep:id/editable_title",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,356][1041,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.google.android.keep:id/editable_title",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,356][1041,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "package": "com.google.android.keep",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.google.android.keep:id/bs_action_button",
+        "text": "",
+        "content-desc": "Action",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[948,2010][1080,2142]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.google.android.keep",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,1339][1080,1471]",
+        "children": [
+            {
+                "class": "android.widget.ImageView",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "com.google.android.keep:id/menu_icon",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[0,1339][132,1471]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "com.google.android.keep:id/menu_text",
+                "text": "Delete",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[132,1375][312,1434]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.google.android.keep",
+        "activity": "",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

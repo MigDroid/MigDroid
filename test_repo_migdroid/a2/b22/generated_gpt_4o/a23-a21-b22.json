@@ -1,0 +1,65 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[891,1605][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[84,366][996,484]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[891,533][1038,680]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "EMPTY_EVENT",
+        "score": 0,
+        "event_type": "Timeout"
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "com.android.chrome",
+        "activity": ".NexusLauncherActivity",
+        "resource-id": "",
+        "text": "Chrome",
+        "content-desc": "Chrome",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[59,157][268,429]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "package": "com.my.mail",
+        "activity": "ru.mail.ui.SlideStackActivity",
+        "resource-id": "com.my.mail:id/toolbar_action_search",
+        "text": "",
+        "content-desc": "Search",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[817,73][943,199]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.my.mail",
+        "activity": "ru.mail.ui.SearchActivity",
+        "resource-id": "com.my.mail:id/search_text",
+        "text": "Search Text",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[158,108][943,165]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.my.mail:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.my.mail",
+        "activity": "ru.mail.mailapp.SplashScreenActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[231,439][1038,496]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

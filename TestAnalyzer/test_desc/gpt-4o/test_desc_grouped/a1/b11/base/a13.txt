@@ -1,0 +1,5 @@
+Functionality Under Test: The ability of the browser app to navigate to a specified URL and load the webpage correctly.
+Test Steps: 
+1. Focus on the URL bar and enter the URL. [Click URL bar to focus, then send keys "https://www.ics.uci.edu" to navigate].
+
+Stop Condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the website logo.

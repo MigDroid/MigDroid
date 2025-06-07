@@ -1,0 +1,9 @@
+Functionality Under Test: The app calculates and displays the correct amount each person pays based on inputs.
+Test Steps: 
+1. Dismiss update dialog. [Click OK button].
+2. Open calculator screen. [Click Calculator option].
+3. Enter bill amount '56.6'. [Click Bill Amount field, input '5', '6', '.', '6', confirm].
+4. Enter tip percentage '15'. [Click Tip Percentage field, input '1', '5', confirm].
+5. Enter number of people '4'. [Click No. of People field, input '4', confirm].
+
+Stop Condition: Got the observation that a text field subject with text '16.27' has Appear, it is the amount each person pays.

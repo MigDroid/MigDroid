@@ -1,0 +1,42 @@
+I have a $$$category$$$ Android app and I want to test this functionality of it (Target Functionality):
+$$$func$$$
+
+Now, I provide a test skeleton that is used to test the same functionality of another app (source app). 
+The skeleton is written in natural language, formed by a series of semantic steps.
+By semantic steps, I mean the steps are organized according to human habits, and each step could be completed by one or several interactions.
+Note that the skeleton is a good reference, but it may not cover all the steps needed for testing our app. There could be some extra interactions needed before or after a semantic step to set up or handle app-specific behavior.
+So it is just provided for you to understand how the test is conducted in a general way; no need to follow it strictly.
+Test Skeleton for Source App:
+$$$src_test_desc$$$
+
+You should know when the test is complete. A stop condition is provided below for your reference (It means if this condition is satisfied, the test should stop):
+Stop Condition: $$$stop_condition$$$
+
+For your reference, the source app's final screen looks like the left side of the image attached, and the source app satisfied the stop condition.
+
+Now I have been interacting with our app to test its functionality, after executing these steps:
+$$$event_history_desc$$$
+The app has navigated to the page shown in the right side of the image attached. The description of the current page is:
+$$$page_desc$$$
+
+Now based on the information above, please answer the following questions:
+a. Corresponding to the skeleton, which steps' intentions have been fulfilled/achieved in the skeleton?
+b. What steps remain? 
+c. Are the remaining steps necessary for testing the functionality of our app? You should consider two aspects: 1. If we skip the step, would the stop condition be satisfied? 2. Does the step test essential widgets or actions of the functionality under test? If we skip the step, would some essential widgets or actions related to the functionality be not covered? If skipping the step would still satisfy the stop condition and no essential widgets are missed, then the step is not necessary.
+d. Is it time to check the stop condition? If all the necessary actions have been finished and the stop condition is likely to be satisfied based on the screenshot, then it is time to check the stop condition. To make a decision, you should take these factors into consideration: 1. The already-executed interactions. 2. The stop condition put above. 3. The comparison between source app final screen and our app current screen.
+
+Your answer should strictly follow this format:
+Executed Steps: [List the steps that have been executed in the skeleton.]
+Remaining Steps: [List the steps that are remained in the skeleton.]
+Remaining Step Necessity: 
+For each remaining step, based on the current GUI state, do you think it is necessary to finish the test? A step is unnecessary when it meets the three conditions simultaneously: a. the step is not a key logic of the whole interaction flow, and skipping it will not affect the completion of the overall interaction flow; b. skipping it would still satisfy the stop condition; c. all functionalities mentioned before can still be tested without it. Use no more than 40 words for each step.
+You should follow this format for each remaining step:
+Step N: [The step number]
+Interaction flow necessity: [Analyze whether skipping the step would result that the overall interaction flow cannot be completed. Use no more than 20 words.]
+Stop Condition Necessity: [Analyze whether skipping the step would result that the stop condition cannot be satisfied. Use no more than 20 words.]
+Functionality Coverage: [Analyze whether skipping the step would leave some key logic of the target functionality untested. Use no more than 20 words.]
+Step Necesssity: [If skipping the step would not affect the overall interaction flow, the stop condition, and the functionality coverage, then the step is unnecessary. If it violates any of the three conditions, then it is necessary. Use no more than 20 words.]
+Extra Steps to Take: [If no remaining steps are necessary, then all we need to do is to go to the anchor GUI page to check the stop condition. If the app is already on the anchor GUI page, then no further steps are needed. If the app is not on the anchor GUI page, you should tell me what to do next to reach the anchor GUI page.]
+Stop Condition Verify Reasoning: [Give a brief reasoning on whether you think it is time to check the stop condition. If you think the remaining steps are unnecessary, and no further steps to take other than the skeleton steps, and the stop condition is satisfied, then it is. Otherwise, you should tell me which widget should be interacted with next before checking the stop condition.]
+Extra Steps Needed to Go to Anchor GUI Page: [Yes/No] (Choose yes when all necessary skeleton steps are finished, and the target functionality is triggered, and all we need to do is to go to the anchor GUI page to check the stop condition, and the app is not on the anchor page.)
+Time to Check Stop Condition: [Yes/No] (Choose one)

@@ -1,0 +1,10 @@
+Functionality Under Test:
+The script tests the ability to add and delete a list item in the ToDo List app.
+Interaction Steps:
+1. Interaction: Input 'Sample Todo' in text field to add a new list.
+2. Interaction: Click 'Add' button to create the list.
+3. Interaction: Long press on 'Sample Todo' list item to open options.
+4. Interaction: Click 'Delete' option to remove the list.
+5. Interaction: Click 'Yes' button to confirm deletion.
+Stop Condition:
+Got the observation that a list item with text 'Sample Todo' has Disappeared, it is deleted, which means the list was successfully removed.

@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests the app's ability to calculate and display the per person cost correctly.
+Interaction Steps:
+1. Interaction: Click Skip button to dismiss the popup.
+2. Interaction: Input 56.6 Bill field to set the bill amount.
+3. Interaction: Input 15 Tip % field to set the tip percentage.
+4. Interaction: Input 4 Split Bill field to set the number of ways to split.
+Stop Condition:
+Got the observation that a text field subject with text '16.27' has Appear, it is the Per Person field, which means the calculation is correct.

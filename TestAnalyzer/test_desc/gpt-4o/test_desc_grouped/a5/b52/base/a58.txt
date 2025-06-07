@@ -1,0 +1,8 @@
+Functionality Under Test: Calculate total and per person payment based on bill amount, tip percent, and number of people.
+```
+Test Steps: 
+1. Input Bill Amount as 56.6. [Click Bill Amount field, input 5, 6, decimal point, 6, confirm with OK].
+2. Input Tip Percent as 15. [Click Tip Percent field, input 1, 5, confirm with OK].
+3. Input Number of People as 4. [Click No. of People field, input 4, confirm with OK].
+
+Stop Condition: Got the observation that a text field subject with text '16.27' has Appear, it is the Each Person Pays field.

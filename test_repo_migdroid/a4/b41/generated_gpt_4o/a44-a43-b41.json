@@ -1,0 +1,76 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.portal.MailPortalActivity",
+        "resource-id": "ru.mail.mailapp:id/search_tap_area",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[399,359][1063,491]",
+        "children": [
+            {
+                "class": "android.widget.Button",
+                "package": "ru.mail.mailapp",
+                "activity": "",
+                "resource-id": "ru.mail.mailapp:id/icon_search",
+                "text": "",
+                "content-desc": "Mails search",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[964,359][1063,491]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.SearchActivity",
+        "resource-id": "ru.mail.mailapp:id/search_text",
+        "text": "Search Text",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[165,183][937,246]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "ru.mail.mailapp:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.portal.MailPortalActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[242,531][1036,594]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

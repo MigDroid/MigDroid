@@ -1,0 +1,7 @@
+Functionality under test: Test the browser's ability to navigate to "https://www.ics.uci.edu" and verify the page loads by checking for the "UCI ICS logo".
+Semantic steps: 
+1. Peripheral Step: Deny notifications to proceed with the app. [Click "Don’t allow" button on the notification permission prompt].
+2. Peripheral Step: Complete onboarding to access main features. [Click "Let's do it!" button on the welcome screen].
+3. Peripheral Step: Select and cancel browser choice dialog. [Click "Choose Your Browser" button, then click "Cancel" button on the browser selection screen].
+4. Key Step: Navigate to UCI website. [Input "https://www.ics.uci.edu" in the search bar and press enter].
+Stop condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is a webpage element.

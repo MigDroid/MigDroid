@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the app's ability to calculate and display the correct tip and per person payment.
+Interaction Steps:
+1. Interaction: Input 56.6 Bill Amount to calculate tip.
+2. Interaction: Input 15 Tip Percent to calculate tip.
+3. Interaction: Input 4 Number of People to calculate per person share.
+Stop Condition:
+Got the observation that a text field subject with text '16.27' has Appear, it is Each Person Pays, which means the calculation is correct.

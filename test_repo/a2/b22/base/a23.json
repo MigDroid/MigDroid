@@ -1,0 +1,167 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/btn_skip",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".tutorial.TutorialActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,1668][231,1794]"
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/fab_new_task",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[891,1605][1038,1752]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/et_new_task_name",
+        "text": "Name",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "New To-Do task",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Sample Todo"
+        ],
+        "long_clickable": "True",
+        "bounds": "[68,607][1012,725]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/bt_new_task_ok",
+        "text": "Okay",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Cancel",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[762,1321][1038,1447]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "long_clickable": "False",
+        "bounds": "[144,236][1080,299]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.secuso.privacyfriendlytodolist:id/tv_exlv_task_name",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ],
+        "long_clickable": "False",
+        "bounds": "[144,236][1080,299]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "android:id/title",
+        "text": "Delete To-Do Task",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[132,1066][948,1123]"
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a23",
+        "package": "org.secuso.privacyfriendlytodolist",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ]
+    }
+]

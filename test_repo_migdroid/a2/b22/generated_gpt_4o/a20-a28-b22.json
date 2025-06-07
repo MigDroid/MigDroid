@@ -1,0 +1,144 @@
+[
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/task_content",
+        "text": "",
+        "content-desc": "Item 1 of 1,  task Sample Todo, Added to My Day",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,385][1058,561]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "More options",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[969,147][1080,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[530,543][1069,675]",
+        "children": [
+            {
+                "class": "android.widget.LinearLayout",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/content",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[530,543][1069,675]",
+                "children": [
+                    {
+                        "class": "android.widget.RelativeLayout",
+                        "package": "com.microsoft.todos",
+                        "activity": "",
+                        "resource-id": "",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[574,579][1025,638]",
+                        "children": [
+                            {
+                                "class": "android.widget.TextView",
+                                "package": "com.microsoft.todos",
+                                "activity": "",
+                                "resource-id": "com.microsoft.todos:id/title",
+                                "text": "Delete task",
+                                "content-desc": "",
+                                "clickable": "false",
+                                "checkable": "false",
+                                "checked": "false",
+                                "focused": "false",
+                                "enabled": "true",
+                                "bounds": "[574,579][1025,638]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "android:id/button1",
+        "text": "DELETE",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[773,1269][976,1418]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.microsoft.todos",
+        "activity": "com.microsoft.todos.ui.LaunchActivity",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

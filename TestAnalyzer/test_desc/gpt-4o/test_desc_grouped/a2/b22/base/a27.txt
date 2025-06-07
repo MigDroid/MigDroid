@@ -1,0 +1,8 @@
+Functionality Under Test: Test the creation and deletion of a note in the ToDo List app.
+Test Steps: 
+1. Complete the tutorial and grant permissions. [Click NEXT twice, Allow permissions, and SKIP tutorial].
+2. Create a new text note. [Click Add, select Text, input 'Sample Todo', and save].
+3. Return to the main screen. [Click back button].
+4. Delete the created note. [Long press 'Sample Todo', click Delete, and confirm].
+
+Stop Condition: Got the observation that a text subject with 'Sample Todo' has disappeared, it is a note.

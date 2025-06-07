@@ -1,0 +1,104 @@
+[
+    {
+        "class": "android.webkit.WebView",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][1080,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.webkit.WebView",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][1080,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "No thanks",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[481,1315][778,1417]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "Never again",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[299,1329][632,1434]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[462,2077][618,2234]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "EMPTY_EVENT",
+        "score": 0,
+        "event_type": "Timeout"
+    }
+]

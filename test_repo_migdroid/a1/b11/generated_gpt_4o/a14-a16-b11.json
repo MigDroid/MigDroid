@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "resource-id": "com.android.chrome:id/search_box_text",
+        "text": "Search or type web address",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[77,356][832,488]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "Search or type web address",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[154,144][761,282]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ]
+    },
+    {
+        "class": "android.widget.Image",
+        "resource-id": "",
+        "text": "Donald Bren School of Information and Computer Sciences blue wordmark",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Donald Bren School of Information and Computer Sciences blue wordmark"
+        ],
+        "bounds": "[44,325][863,433]"
+    }
+]

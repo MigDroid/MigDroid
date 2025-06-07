@@ -1,0 +1,69 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/right_button_2",
+        "text": "",
+        "content-desc": "Search mail",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a47",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": "com.yahoo.mobile.client.android.mail.activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[948,164][1058,274]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/search_edit_text",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a47",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": "com.yahoo.mobile.client.android.mail.activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[182,158][1080,290]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/email_subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a47",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": "com.yahoo.mobile.client.android.mail.activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,668][961,724]"
+    }
+]

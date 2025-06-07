@@ -1,0 +1,143 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[891,1605][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[84,366][996,484]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[891,533][1038,680]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/listItemLinearLayout",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,210][1080,378]",
+        "children": [
+            {
+                "class": "android.widget.ImageView",
+                "package": "com.rubenroy.minimaltodo",
+                "activity": "",
+                "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemColorImageView",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[42,235][160,353]"
+            },
+            {
+                "class": "android.widget.RelativeLayout",
+                "package": "com.rubenroy.minimaltodo",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[202,210][1080,378]",
+                "children": [
+                    {
+                        "class": "android.widget.TextView",
+                        "package": "com.rubenroy.minimaltodo",
+                        "activity": "",
+                        "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+                        "text": "Sample Todo",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[202,265][1080,322]"
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "swipe_right"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

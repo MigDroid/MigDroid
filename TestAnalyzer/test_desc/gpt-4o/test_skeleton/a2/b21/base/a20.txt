@@ -1,0 +1,7 @@
+Functionality under test: Adding a new task 'Sample Todo' to the ToDo List and verifying its presence on the main screen.
+Semantic steps: 
+1. Peripheral Step: Grant notification permission. [Click the "Allow" button on the permission dialog to grant notification permission].
+2. Key Step: Add a new note. [Click the "+" button to add a new note].
+3. Key Step: Focus on input area and add task. [Click the text field to focus, then input 'Sample Todo' to add a new task].
+4. Key Step: Return to main screen. [Click the "Navigate up" button to return to the main screen].
+Stop condition: Got the observation that a text subject with 'Sample Todo' has appeared, it is a task item.

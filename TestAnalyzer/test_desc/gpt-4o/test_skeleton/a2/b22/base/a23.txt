@@ -1,0 +1,6 @@
+Functionality under test: The script tests adding and deleting a task named 'Sample Todo' in a ToDo List app, ensuring task management functionality.
+Semantic steps: 
+1. Peripheral Step: Skip the tutorial. [Click the Skip button on the welcome screen to bypass the tutorial.]
+2. Key Step: Add a new task named 'Sample Todo'. [Click the Plus button, input 'Sample Todo' in the text field, and click the Okay button.]
+3. Key Step: Delete the task 'Sample Todo'. [Long press the 'Sample Todo' task item and click the Delete option.]
+Stop condition: Got the observation that a text subject with 'Sample Todo' has Disappear, it is the task name.

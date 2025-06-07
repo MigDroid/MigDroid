@@ -1,0 +1,6 @@
+Functionality Under Test: The app's ability to calculate the final bill with a given tip percentage.
+Test Steps: 
+1. Dismiss the initial popup. [Click the Skip button to dismiss the popup].
+2. Enter bill amount and tip percentage. [Input 56.6 as bill amount and 15 as tip percentage].
+
+Stop Condition: Got the observation that a text field subject with text '65.09' has Appear, it is the final bill amount.

@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests the calculation of the split total based on the entered bill amount.
+Interaction Steps:
+1. Interaction: Click number 5 button to input bill amount.
+2. Interaction: Click number 6 button to input bill amount.
+3. Interaction: Click number 6 button to input bill amount.
+4. Interaction: Click number 0 button to input bill amount.
+Stop Condition:
+Got the observation that a Split Total subject with value 65.09 has Appeared, it is the calculated total, which means the calculation is correct.

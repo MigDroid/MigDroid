@@ -1,0 +1,7 @@
+Functionality under test: Test the browser's ability to navigate to specific URLs and return to a previous page, ensuring correct webpage display.
+Semantic steps: 
+1. Peripheral Step: Dismiss initial dialogs. [Click OK and Cancel buttons to dismiss the changelog dialog].
+2. Key Step: Navigate to UCI ICS webpage. [Click address bar, enter URL 'https://www.ics.uci.edu', and load the page].
+3. Key Step: Navigate to UCI main webpage. [Click address bar, enter URL 'https://uci.edu', and load the page].
+4. Key Step: Navigate back to previous page. [Press the back button to return to the UCI ICS webpage].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

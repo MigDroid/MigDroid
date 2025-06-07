@@ -1,0 +1,9 @@
+Functionality Under Test: The script tests adding and deleting a task in the ToDo List app.
+Test Steps: 
+1. Grant notification permission and bypass initial setup. [Click Allow button, then click Skip button].
+2. Open the task list. [Click Tasks list to open task list].
+3. Add a new task named 'Sample Todo'. [Click New Task button, input 'Sample Todo', click Add Task button].
+4. Navigate back to the task list. [System Event: KEY_BACK].
+5. Delete the 'Sample Todo' task. [Long press 'Sample Todo', click More Options, click Delete Task, click DELETE button].
+
+Stop Condition: Got the observation that a text subject with 'Sample Todo' has Disappear, it is a task item.

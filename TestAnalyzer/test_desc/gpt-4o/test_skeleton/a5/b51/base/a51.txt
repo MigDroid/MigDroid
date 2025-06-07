@@ -1,0 +1,5 @@
+Functionality under test: The app calculates the total amount by adding a 15% tip to a $56.6 bill, resulting in $65.09.
+Semantic steps: 
+1. Key Step: Input the bill amount to calculate total. [Enter 56.6 in the Bill Amount field].
+2. Key Step: Input the tip percent to calculate total. [Enter 15 in the Tip Percent (%) field].
+Stop condition: Got the observation that a Total Amount field with text '65.09' has appeared, it is the calculated total.

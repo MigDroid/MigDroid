@@ -1,0 +1,7 @@
+Functionality under test: Test browser's ability to navigate between specific web pages and return to a previous page, ensuring correct display.
+Semantic steps: 
+1. Peripheral Step: Dismiss widget prompt. [Click "Not now" button to dismiss the widget prompt].
+2. Key Step: Navigate to ICS website. [Click search bar, enter "https://www.ics.uci.edu" in address bar, and load the page].
+3. Key Step: Navigate to UCI website. [Click URL bar, enter "https://uci.edu" in address bar, and load the page].
+4. Key Step: Return to ICS website. [Press KEY_BACK to return to the previous page].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

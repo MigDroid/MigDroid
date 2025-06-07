@@ -1,0 +1,106 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "text": "No thanks",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".FullscreenActivity",
+        "package": "com.superproductivity.superproductivity",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a29",
+        "long_clickable": "False",
+        "bounds": "[481,1381][778,1483]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "text": "Never again",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".FullscreenActivity",
+        "package": "com.superproductivity.superproductivity",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a29",
+        "long_clickable": "False",
+        "bounds": "[299,1329][632,1434]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "mat-input-0",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".FullscreenActivity",
+        "package": "com.superproductivity.superproductivity",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a29",
+        "long_clickable": "False",
+        "bounds": "[22,422][951,545]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "mat-input-0",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".FullscreenActivity",
+        "package": "com.superproductivity.superproductivity",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ],
+        "tid": "a29",
+        "long_clickable": "False",
+        "bounds": "[22,422][951,545]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".FullscreenActivity",
+        "package": "com.superproductivity.superproductivity",
+        "event_type": "oracle",
+        "ignorable": "false",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.widget.EditText[@text=\"Sample Todo\"]"
+        ],
+        "tid": "a29",
+        "long_clickable": "False",
+        "bounds": "[134,408][1020,485]"
+    }
+]

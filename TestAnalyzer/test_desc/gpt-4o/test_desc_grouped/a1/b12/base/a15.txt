@@ -1,0 +1,8 @@
+Functionality Under Test: Test browser's ability to navigate and display specific websites correctly.
+Test Steps: 
+1. Bypass introduction screen. [Click Skip button].
+2. Navigate to ICS website. [Click URL bar, enter 'https://www.ics.uci.edu', click displayed URL].
+3. Navigate to UCI homepage. [Enter 'https://uci.edu'].
+4. Return to previous page. [KEY_BACK event].
+
+Stop Condition: Got the observation that a view subject with content-desc 'UCI ICS logo' has appeared, it is the ICS logo.

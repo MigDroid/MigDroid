@@ -1,0 +1,6 @@
+Functionality Under Test:
+The script tests the app's ability to calculate the total amount including a tip.
+Interaction Steps:
+1. Interaction: Input 56.6 Base Amount to Calculate Total with Tip
+Stop Condition:
+Got the observation that a total amount subject with text '65.09' has Appeared, it is the calculated total, which means the calculation is correct.

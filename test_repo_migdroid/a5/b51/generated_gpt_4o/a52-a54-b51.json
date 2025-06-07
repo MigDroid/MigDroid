@@ -1,0 +1,80 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.zaidisoft.teninone",
+        "activity": "com.zaidisoft.teninone.Calculator",
+        "resource-id": "com.zaidisoft.teninone:id/billAmountET",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[643,774][1059,879]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.zaidisoft.teninone",
+        "activity": "com.zaidisoft.teninone.Calculator",
+        "resource-id": "com.zaidisoft.teninone:id/tipPercentET",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[643,929][1059,1034]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.zaidisoft.teninone",
+        "activity": "com.zaidisoft.teninone.Calculator",
+        "resource-id": "com.zaidisoft.teninone:id/calculateBtn",
+        "text": "Calculate",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[551,1244][1048,1370]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.zaidisoft.teninone:id/totalBillAmountTV",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.zaidisoft.teninone",
+        "activity": "com.zaidisoft.teninone.Calculator",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[360,394][698,514]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ]
+    }
+]

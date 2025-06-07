@@ -1,0 +1,6 @@
+Functionality under test: Test the browser's ability to navigate to 'https://www.ics.uci.edu' and verify the page loads by checking for the UCI ICS logo.
+Semantic steps: 
+1. Peripheral Step: Dismiss the welcome message. [Click the "No" button to dismiss the welcome message dialog].
+2. Peripheral Step: Focus on the search input. [Click the "Bookmarks" field to focus on the search input].
+3. Key Step: Navigate to the UCI website. [Input 'https://www.ics.uci.edu' and press enter in the search field].
+Stop condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the UCI logo.

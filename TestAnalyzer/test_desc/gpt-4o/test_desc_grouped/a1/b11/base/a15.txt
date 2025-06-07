@@ -1,0 +1,6 @@
+Functionality Under Test: Test browser's ability to navigate to a URL and load the webpage correctly.
+Test Steps: 
+1. Bypass introduction screen. [Click Skip button].
+2. Navigate to website. [Click address bar, send keys "https://www.ics.uci.edu", and press enter].
+
+Stop Condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the website logo.

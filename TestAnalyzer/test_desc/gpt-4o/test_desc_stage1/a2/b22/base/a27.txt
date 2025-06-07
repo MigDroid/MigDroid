@@ -1,0 +1,17 @@
+Functionality Under Test:
+The script tests the creation and deletion of a note in the ToDo List app.
+Interaction Steps:
+1. Interaction: Click NEXT button to proceed in the tutorial.
+2. Interaction: Click NEXT button to proceed in the tutorial.
+3. Interaction: Click Allow button to grant permissions.
+4. Interaction: Click SKIP button to skip the tutorial.
+5. Interaction: Click Add button to create a new note.
+6. Interaction: Click Text option to select note type.
+7. Interaction: Input 'Sample Todo' text to create a note.
+8. Interaction: Click back button to save the note.
+9. Interaction: Click back button to return to the main screen.
+10. Interaction: Long press Sample Todo note to select it.
+11. Interaction: Click Delete option to remove the note.
+12. Interaction: Click OK button to confirm deletion.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has disappeared, it is a note, which means the note was successfully deleted.

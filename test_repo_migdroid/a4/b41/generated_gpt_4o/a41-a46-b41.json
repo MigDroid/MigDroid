@@ -1,0 +1,106 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.gm",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.google.android.gm:id/open_search",
+        "text": "Search in mail",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,158][1036,290]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.google.android.gm",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.google.android.gm:id/search_suggestion_item_view",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,582][1080,714]",
+        "children": [
+            {
+                "class": "android.widget.FrameLayout",
+                "package": "com.google.android.gm",
+                "activity": "",
+                "resource-id": "com.google.android.gm:id/search_overlay_item_icon_bg",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[33,604][121,692]",
+                "children": [
+                    {
+                        "class": "android.widget.ImageView",
+                        "package": "com.google.android.gm",
+                        "activity": "",
+                        "resource-id": "com.google.android.gm:id/search_overlay_item_icon",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[52,615][102,681]"
+                    }
+                ]
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.google.android.gm",
+                "activity": "",
+                "resource-id": "com.google.android.gm:id/search_overlay_item_text",
+                "text": "Automated",
+                "content-desc": "Suggestion: Automated",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[154,617][1080,679]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.gm:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.google.android.gm",
+        "activity": "com.google.android.gm.ConversationListActivityGmail",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[198,846][948,895]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

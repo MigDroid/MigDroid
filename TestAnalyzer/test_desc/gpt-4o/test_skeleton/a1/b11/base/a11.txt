@@ -1,0 +1,5 @@
+Functionality under test: The test verifies the browser's ability to navigate to 'https://www.ics.uci.edu' and successfully load the page, confirmed by the appearance of the UCI ICS logo.
+Semantic steps: 
+1. Key Step: Activate the search bar for input. [Tap the search bar to enable text input].
+2. Key Step: Navigate to UCI ICS website. [Enter 'https://www.ics.uci.edu' in the search bar and load the page].
+Stop condition: Got the observation that a view subject with content-desc 'UCI ICS logo' has appeared, it is a logo.

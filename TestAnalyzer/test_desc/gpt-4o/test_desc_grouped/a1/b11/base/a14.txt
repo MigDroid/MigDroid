@@ -1,0 +1,7 @@
+Functionality Under Test: Test the browser's ability to navigate to a URL and load the webpage correctly.
+Test Steps: 
+1. Dismiss initial dialogs. [Click OK button, then click Cancel button to dismiss dialogs].
+2. Focus on search bar. [Click search bar to focus input].
+3. Navigate to specified URL. [Input URL 'https://www.ics.uci.edu' in search bar].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is a webpage element.

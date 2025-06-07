@@ -1,0 +1,137 @@
+[
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "android:id/up",
+        "text": "",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,105][42,147]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.fsck.k9:id/folder_name",
+        "text": "Outbox",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[58,571][920,649]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.fsck.k9:id/search",
+        "text": "",
+        "content-desc": "Search",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[0,1668][154,1794]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "android:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.MessageList",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "id",
+            "android:id/search_src_text"
+        ],
+        "long_clickable": "True",
+        "bounds": "[154,76][904,171]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "android:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[154,76][904,171]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.fsck.k9:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a41",
+        "package": "com.fsck.k9",
+        "activity": ".activity.Search",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[172,202][943,253]"
+    }
+]

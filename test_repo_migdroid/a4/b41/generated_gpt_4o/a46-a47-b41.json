@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/right_button_2",
+        "text": "",
+        "content-desc": "Search mail",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[948,164][1058,274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/search_edit_text",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[182,158][1080,290]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.yahoo.mobile.client.android.mail:id/email_subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.yahoo.mobile.client.android.mail",
+        "activity": "com.yahoo.mobile.client.android.mail.activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[198,668][961,724]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

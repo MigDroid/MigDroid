@@ -1,0 +1,46 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.chimbori.milliways:id/base_amount_value",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Bill Amount",
+        "tid": "a59",
+        "package": "com.chimbori.milliways",
+        "activity": "com.chimbori.milliways/com.chimbori.milliways.MilliwaysActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "56.6"
+        ],
+        "long_clickable": "True",
+        "bounds": "[432,180][1036,312]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.chimbori.milliways:id/total_amount_value",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Total Amount",
+        "tid": "a59",
+        "package": "com.chimbori.milliways",
+        "activity": "com.chimbori.milliways/com.chimbori.milliways.MilliwaysActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ],
+        "long_clickable": "True",
+        "bounds": "[432,656][1036,792]"
+    }
+]

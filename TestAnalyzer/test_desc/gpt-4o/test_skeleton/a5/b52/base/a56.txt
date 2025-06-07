@@ -1,0 +1,8 @@
+Functionality under test: The script tests the calculation of the total amount each person pays based on a bill of 56.6, a 15% tip, and 4 people.
+Semantic steps: 
+1. Peripheral Step: Dismiss update dialog. [Click the OK button to dismiss the update dialog on the welcome screen.]
+2. Peripheral Step: Open calculator. [Select the Calculator option from the menu to open the calculator interface.]
+3. Key Step: Input bill amount '56.6'. [Tap the Bill Amount field, enter '5', '6', '.', '6', and confirm the input.]
+4. Key Step: Input tip percentage '15'. [Tap the Tip Percent field, enter '1', '5', and confirm the input.]
+5. Key Step: Input number of people '4'. [Tap the Number of People field, enter '4', and confirm the input.]
+Stop condition: Got the observation that a text field labeled 'Each Person Pays' with text '16.27' has Appear, it is the total per person.

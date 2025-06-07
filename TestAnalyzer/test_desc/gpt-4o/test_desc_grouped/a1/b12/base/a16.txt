@@ -1,0 +1,8 @@
+Functionality Under Test: Test browser's ability to navigate and display UCI ICS website correctly.
+Test Steps: 
+1. Dismiss notification prompt. [Click 'No thanks' button].
+2. Navigate to ICS website. [Click search box, send keys 'https://www.ics.uci.edu' and enter].
+3. Navigate to UCI website. [Click URL bar, send keys 'https://uci.edu' and enter].
+4. Return to previous page. [System Event: KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

@@ -1,0 +1,90 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "me.bluemail.mail:id/more_menu",
+        "text": "",
+        "content-desc": "More Options",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a49",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[970,147][1080,279]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "me.bluemail.mail:id/title",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a49",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[612,179][1036,246]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "me.bluemail.mail:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a49",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[269,162][1058,261]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "me.bluemail.mail:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a49",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[157,355][975,407]"
+    }
+]

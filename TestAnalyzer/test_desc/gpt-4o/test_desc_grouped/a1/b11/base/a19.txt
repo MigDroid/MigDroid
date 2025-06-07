@@ -1,0 +1,8 @@
+Functionality Under Test: Test the browser's ability to navigate to a specified URL and load the webpage.
+Test Steps: 
+1. Deny notifications to proceed with the app. [Click "Don’t allow" button].
+2. Complete onboarding to access main features. [Click "Let's do it!" button].
+3. Select and cancel browser choice dialog. [Click "Choose Your Browser" button, then click "Cancel" button].
+4. Navigate to UCI website. [Input "https://www.ics.uci.edu" in search bar].
+
+Stop Condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is a webpage element.

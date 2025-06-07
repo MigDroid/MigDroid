@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.webkit.WebView",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][1080,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "mat-input-0",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[22,422][951,545]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "No thanks",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[481,1315][778,1417]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.superproductivity.superproductivity",
+        "activity": "com.superproductivity.superproductivity.FullscreenActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[134,897][1020,980]"
+    }
+]

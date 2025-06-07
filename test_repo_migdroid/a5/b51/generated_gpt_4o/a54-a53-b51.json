@@ -1,0 +1,119 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "resource-id": "android:id/button1",
+        "text": "Accept",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[780,989][979,1115]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "resource-id": "com.tleapps.simpletipcalculator:id/editTextBill",
+        "text": "100.00",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[514,305][960,417]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "resource-id": "com.tleapps.simpletipcalculator:id/editTextBill",
+        "text": "100.00",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[514,305][960,417]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "resource-id": "com.tleapps.simpletipcalculator:id/editTextTip",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[711,436][960,548]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "resource-id": "com.tleapps.simpletipcalculator:id/buttonCalculate",
+        "text": "Calculate",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[180,700][411,826]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.tleapps.simpletipcalculator:id/textViewTotalToPay",
+        "text": "$65.09",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.tleapps.simpletipcalculator",
+        "activity": "com.tleapps.simpletipcalculator.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "$65.09"
+        ],
+        "bounds": "[550,908][960,965]"
+    }
+]

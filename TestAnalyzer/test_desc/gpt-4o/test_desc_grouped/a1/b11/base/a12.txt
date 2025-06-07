@@ -1,0 +1,6 @@
+Functionality Under Test: The browser's ability to navigate to a specified URL and load the webpage correctly.
+Test Steps: 
+1. Focus on the URL bar. [Click the URL bar to focus on it].
+2. Navigate to "https://www.ics.uci.edu". [Send keys and enter "https://www.ics.uci.edu" in the URL bar].
+
+Stop Condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is a logo.

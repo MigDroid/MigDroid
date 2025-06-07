@@ -1,0 +1,7 @@
+Functionality under test: The script tests adding a task titled 'Sample Todo' and then deleting it, ensuring both functionalities work correctly.
+Semantic steps: 
+1. Key Step: Open new task screen by clicking Add button. [Click the '+' button at the bottom right corner to open the new task screen.]
+2. Key Step: Enter task details 'Sample Todo' in text field. [Type 'Sample Todo' into the 'Title' text field on the new task screen.]
+3. Key Step: Save the task to the list by clicking Save button. [Click the blue arrow button to save the task to the list.]
+4. Key Step: Delete the task by swiping right on it. [Swipe right on the 'Sample Todo' task in the list to delete it.]
+Stop condition: Got the observation that a text subject with 'Sample Todo' has Disappear, it is the task text.

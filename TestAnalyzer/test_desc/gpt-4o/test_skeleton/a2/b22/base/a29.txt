@@ -1,0 +1,6 @@
+Functionality under test: Testing the ability to add a task 'Sample Todo' and then delete it, ensuring task management functionality works correctly.
+Semantic steps: 
+1. Peripheral Step: Dismiss the welcome message and prevent future messages. [Click 'Let's go!' and 'No thanks' buttons].
+2. Key Step: Add a new task 'Sample Todo'. [Click input field, type 'Sample Todo', and press 'Enter'].
+3. Key Step: Delete the task 'Sample Todo'. [Long press 'Sample Todo', select 'Delete Task' option].
+Stop condition: Got the observation that a task item with text 'Sample Todo' has Disappear, it is a task item.

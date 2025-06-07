@@ -1,0 +1,7 @@
+Functionality Under Test: Test the ability to create and save a new text note in the ToDo List app.
+Test Steps: 
+1. Navigate through initial setup screens. [Click NEXT, NEXT, Allow, and SKIP buttons to proceed through setup and grant permissions].
+2. Create a new text note. [Click Add button, select Text option, input 'Sample Todo' in text field].
+3. Save the note and return to main screen. [Click back button twice to save the note and return].
+
+Stop Condition: Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is the note title.

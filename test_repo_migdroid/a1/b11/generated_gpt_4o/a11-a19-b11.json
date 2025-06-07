@@ -1,0 +1,25 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Don\u2019t allow",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[137,1368][943,1522]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "ResponsibleAIPolicyViolation": "ResponsibleAIPolicyViolation",
+        "event_type": "error_reminder"
+    }
+]

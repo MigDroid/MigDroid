@@ -1,0 +1,174 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.nononsenseapps.notepad",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Don\u2019t allow",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[137,1368][943,1522]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "com.nononsenseapps.notepad:id/menu_add",
+        "text": "",
+        "content-desc": "Save and add note",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[705,147][837,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "com.nononsenseapps.notepad:id/taskText",
+        "text": "Note",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,342][1058,617]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "com.nononsenseapps.notepad:id/taskText",
+        "text": "Note",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,342][1058,617]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][154,290]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,378][1058,529]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "com.nononsenseapps.notepad:id/menu_delete",
+        "text": "",
+        "content-desc": "Delete",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[705,147][837,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.nononsenseapps.notepad",
+        "activity": ".activities.main.ActivityMain_",
+        "resource-id": "android:id/button1",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[559,1269][735,1418]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.nononsenseapps.notepad",
+        "activity": "com.nononsenseapps.notepad.activities.main.ActivityMain_",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

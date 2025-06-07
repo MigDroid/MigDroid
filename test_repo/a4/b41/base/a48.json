@@ -1,0 +1,67 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Search, , ",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a48",
+        "package": "com.microsoft.office.outlook",
+        "activity": "com.acompli.acompli.CentralActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[948,147][1080,279]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "com.microsoft.office.outlook:id/search_edit_text",
+        "text": "Mail, Events, People, Files",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a48",
+        "package": "com.microsoft.office.outlook",
+        "activity": "com.acompli.acompli.CentralActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.microsoft.office.outlook:id/message_snippet_subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a48",
+        "package": "com.microsoft.office.outlook",
+        "activity": "com.acompli.acompli.CentralActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,646][933,699]"
+    }
+]

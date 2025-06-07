@@ -1,0 +1,5 @@
+Functionality under test: Verify the Total Amount calculation in the Tip Calculator app when a Bill Amount of 56.6 and a Tip Percent of 15 are inputted.
+Semantic steps: 
+1. Key Step: Input Bill Amount as 56.6. [Click Bill Amount field, input '56.6', confirm with OK].
+2. Key Step: Verify Total Amount calculation. [Observe the Total Amount field displays '65.09' after inputting Bill Amount and Tip Percent].
+Stop condition: Got the observation that a text field with text '65.09' has Appear, it is the Total Amount.

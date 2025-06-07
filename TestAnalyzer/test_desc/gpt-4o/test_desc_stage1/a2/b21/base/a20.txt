@@ -1,0 +1,10 @@
+Functionality Under Test:
+Adding a new task to the ToDo List and verifying its presence.
+Interaction Steps:
+1. Interaction: Click Allow button to grant notification permission.
+2. Interaction: Click Save and add note button to add a new note.
+3. Interaction: Click text field to focus on input area.
+4. Interaction: Input 'Sample Todo' text field to add a new task.
+5. Interaction: Click Navigate up button to return to the main screen.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has appeared, it is a task item, which means the task was successfully added.

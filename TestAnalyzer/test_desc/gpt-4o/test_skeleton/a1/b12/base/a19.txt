@@ -1,0 +1,8 @@
+Functionality under test: Test the browser's ability to navigate to specified URLs ("https://www.ics.uci.edu" and "https://uci.edu") and correctly display the webpages, including back navigation functionality.
+Semantic steps: 
+1. Peripheral Step: Deny notification permission. [Click "Don’t allow" button on the notification permission prompt].
+2. Peripheral Step: Complete onboarding process. [Click "Let's do it!" button, then "Choose Your Browser" button, and "Cancel" button].
+3. Key Step: Navigate to UCI ICS website. [Input "https://www.ics.uci.edu" in the search bar and press enter].
+4. Key Step: Navigate to UCI main website. [Input "https://uci.edu" in the search bar and press enter].
+5. Key Step: Return to previous screen. [Press the back button to return to the previous webpage].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

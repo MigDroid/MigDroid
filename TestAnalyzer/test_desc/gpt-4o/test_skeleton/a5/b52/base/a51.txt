@@ -1,0 +1,6 @@
+Functionality under test: The script tests the app's ability to calculate the total tip and per person payment based on a bill amount of 56.6, a tip percentage of 15%, and dividing the total among 4 people.
+Semantic steps: 
+1. Key Step: Input Bill Amount to calculate tip. [Input 56.6 as Bill Amount, updating the 'Bill Amount' field from 0.00 to 56.6].
+2. Key Step: Input Tip Percent to calculate tip. [Input 15 as Tip Percent, confirming the 'Tip Percent' field remains 15].
+3. Key Step: Input Number of People to calculate per person share. [Input 4 as Number of People, updating the '# Of People' field from 1 to 4].
+Stop condition: Got the observation that a text field subject with text '16.27' has Appear, it is Each Person Pays.

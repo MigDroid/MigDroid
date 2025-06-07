@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests the calculation of tip and per person payment based on bill total and tip percentage.
+Interaction Steps:
+1. Interaction: Input 56.6 Bill Total to calculate total bill.
+2. Interaction: Input 15 Tip Percentage to calculate tip amount.
+3. Interaction: Input 4 Number of Persons to calculate per person payment.
+4. Interaction: Click Calculate Button to compute the final amounts.
+Stop Condition:
+Got the observation that a TextView subject with text '$ 16.27' has Appear, it is the per person payment, which means the calculation is correct.

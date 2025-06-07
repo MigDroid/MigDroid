@@ -1,0 +1,27 @@
+I have a $$$category$$$ Android app (target app) and I want to test this functionality of it:
+$$$func$$$
+
+Now, I provide a test skeleton that is used to test the same functionality of another app (source app). 
+The skeleton is written in natural language, formed by a series of semantic steps.
+By semantic steps, I mean the steps are organized according to human habits, and each step could be completed by one or several interactions.
+Test Skeleton for Source App:
+$$$src_test_desc$$$
+
+After executing these steps on the source app, it is navigated to the screen shown in the left side of the image attached. 
+An anchor widget is annotated with a red box. The anchor widget is used to confirm the completion of the test with its presence.
+The anchor widget is described as follows:
+$$$stop_condition$$$
+
+Now I have executed similar steps on the target app. Its screen is shown in the right side of the image attached.
+I want to know, for the target app, which widget is the anchor widget for the test?
+We have annotated the candidate widgets with red or blue boxes, and their IDs are shown in the screenshot. We also provide their DOM properties for your reference.
+The candidate widgets are:
+$$$candidates$$$
+
+You should think step by step, first answer these questions, and then tell me which widget is the anchor:
+Question 1: Describe the target app's screen (shown in the right side of the image attached).
+Question 2: Analyze which widget is the anchor widget for the target app, and why?
+Your answer should strictly follow this format:
+Target App Screen Description: [describe the target app's screen, use no more than 30 words]
+Anchor Widget Inference: [Provide an analysis on which widget is the anchor widget for the target app, and why. Use no more than 30 words]
+Anchor Widget ID: [The unique id of the anchor widget. Put only a number here.]

@@ -1,0 +1,7 @@
+Functionality under test: The script tests the app's ability to calculate and display the per person bill correctly by inputting a bill amount of 56.6, a tip percent of 15, and dividing among 4 people, resulting in a per person bill of 16.27.
+Semantic steps: 
+1. Key Step: Input bill amount to calculate total bill. [Enter 56.6 in the Bill Amount field].
+2. Key Step: Input tip percent to calculate tip amount. [Enter 15 in the Tip Percent field].
+3. Key Step: Input number of people to divide bill. [Enter 4 in the Number of People field].
+4. Key Step: Calculate per person bill. [Press the Calculate Button].
+Stop condition: Got the observation that a TextView subject with text '16.27' has Appeared, it is the per person bill.

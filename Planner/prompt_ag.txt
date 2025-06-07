@@ -1,0 +1,42 @@
+I have a $$$category$$$ Android app (target app) and I want to test this functionality of it:
+$$$func$$$
+
+Now, I provide a test skeleton that is used to test the same functionality of another app (source app). 
+The skeleton is written in natural language, formed by a series of semantic steps.
+By semantic steps, I mean the steps are organized according to human habits, and each step could be completed by one or several interactions.
+Note that the skeleton is a good reference, but it may not cover all the steps needed for testing our app. There could be some extra interactions needed before or after a semantic step to set up or handle app-specific behavior.
+So it is just provided for you to understand how the test is conducted in a general way; no need to follow it strictly.
+Test Skeleton for Source App:
+$$$src_test_desc$$$
+
+A tip about the skeleton: Each skeleton step contains two parts. The first part is the intention of the step, and the second part is the detailed operations to complete the step. You should achieve the intention of the steps, but no need to follow the detailed operations strictly, since the detailed operations are based on the source app, not our app.
+
+Now I am interacting with our app to test its functionality.
+$$$event_history_desc$$$
+The app has navigated to the page shown in the screenshot attached. The description of the current page is:
+$$$page_desc$$$
+
+Now based on the information above, please answer the following questions:
+a. Corresponding to the skeleton, which steps' intentions have been fulfilled/achieved in the skeleton?
+b. Which step is in the middle of being fulfilled, considering some steps need multiple interactions to finish?
+c. Which steps are likely to be not needed for the target app?
+d. If a step is just about to be executed, is there extra interaction needed before it to set up or handle app-specific behavior?
+e. Which widget should I interact with next to continue the test, and what is the action to be taken on it? All the candidate widgets are provided below, and each of them is annotated by a red rectangle and their ID (a number) in the page screenshot. If two widgets' rectangle lines are overlapped, one of them is annotated by a blue or green rectangle:
+$$$candidates$$$
+As above, each widget is started with a unique ID. The ID itself has no meaning, and does not indicate the widget's order, importance, or meaning. 
+
+All in all, you should select one widget from the candidate widgets to interact with. Your answer should strictly follow this format:
+Skeleton step completeness analysis (Guidance for you: for each skeleton step, you should analyze whether its intention has been already achieved. If not, is it necessary for the target app? A tip: for now, the test is not finished, so there must be at least some steps that are not completed or have not achieved their intentions):
+Step 1: [first use no more than 20 words to analyze, then choose from Intention Achieved/Necessary/Unnecessary]
+Step 2: [first use no more than 20 words to analyze, then choose from Intention Achieved/Necessary/Unnecessary]
+...
+Completed/Achieved Steps: [List the steps that have been executed in the skeleton.（sometimes one step on the target app could result in several skeleton steps completed.）]
+Step in progress: [The step that is in the middle of execution. Put "None" here if there is no such step.]
+Step to start: [The step taht is just about to be executed in the case that previous semantic steps have been executed successfully. The step you choose should be necessary to progress the test, if it is not, or already completed, do not consider it. Put "None" here if a step is already in the middle of progress.]
+Extra Interaction Before Starting the Step: [If a step is just about to be executed, before achieving its intention, do we need to first execute extra interactions to set up or handle app-specific behavior, like process dialogs and tutorials? If not, put "None" here.]
+Interaction Reasoning: [Give a brief reasoning on why you choose a certain widget to interact with, what action you expect to perform on it, and the result you expect after the interaction. Use no more than 30 words.(A tip, for requests popped from the app, like request you to set default app, sign in, open notification, etc. you should reject as long as they are irrelevant to the functionality under test.)]
+
+Widget ID: [The unique id of the widget you choose to interact with. Put only a number here. If you choose a System Action that has not corresponding widget like BACK, put 0 here.]
+Selected Action: [The action you choose to interact with the widget. Strictly select one from tap, long_press, swipe_right, swipe_left, input_and_enter, BACK. Put only the action name here.]
+Input Value: [If you choose input in the previous step, put the input text here. Since we are testing the same functionality as the source test, you should choose one input value from $$$input_values$$$. If the action is not input, put "no value" here.]
+A tip: Reject any offer that asks you to sign in, set default app and pay for a subscription.

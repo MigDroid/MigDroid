@@ -1,0 +1,6 @@
+Functionality under test: Test the browser's ability to navigate to "https://www.ics.uci.edu" and confirm page load by checking for the UCI ICS logo.
+Semantic steps: 
+1. Peripheral Step: Dismiss initial prompts. [Click "Not now" button to dismiss the Firefox widget prompt].
+2. Key Step: Focus on the address bar. [Click on the "Search or enter address" bar to activate input].
+3. Key Step: Navigate to UCI website. [Enter "https://www.ics.uci.edu" in the address bar and load the website].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is a logo.

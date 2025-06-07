@@ -1,0 +1,110 @@
+[
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.google.android.keep",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.google.android.keep:id/list_footer_container",
+        "text": "",
+        "content-desc": "Add list item",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,677][1080,771]",
+        "children": [
+            {
+                "class": "android.widget.ImageView",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "com.google.android.keep:id/checkbox",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[127,677][215,765]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "com.google.android.keep:id/add_item_text_view",
+                "text": "List item",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[215,691][953,750]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.google.android.keep:id/description",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[215,589][953,660]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.google.android.keep:id/description",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[215,589][953,660]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.google.android.keep:id/description",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.google.android.keep",
+        "activity": "",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[215,589][953,660]"
+    }
+]

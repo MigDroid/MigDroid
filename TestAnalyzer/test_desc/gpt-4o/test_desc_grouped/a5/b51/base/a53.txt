@@ -1,0 +1,8 @@
+Functionality Under Test: The app's ability to calculate the total amount including tip based on user input.
+Test Steps: 
+1. Dismiss privacy notice. [Click Accept button to dismiss privacy notice].
+2. Set bill amount to 56.6. [Input 56.6 in Bill field].
+3. Set tip percentage to 15. [Input 15 in Tip field].
+4. Calculate total amount. [Click Calculate button to compute total amount].
+
+Stop Condition: Got the observation that a TextView subject with text $65.09 has Appear, it is the total amount.

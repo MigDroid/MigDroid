@@ -1,0 +1,6 @@
+Functionality Under Test: The script tests the email search functionality within the Mail Client app.
+Test Steps: 
+1. Initiate email search by clicking the Search button.
+2. Enter 'Automated' in the search bar to find specific emails.
+
+Stop Condition: Got the observation that a TextView subject with text 'Automated Software Engineering' has Appeared, it is an email subject.

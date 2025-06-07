@@ -1,0 +1,46 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "org.mozilla.focus",
+        "activity": "org.mozilla.focus.activity.MainActivity",
+        "resource-id": "org.mozilla.focus:id/skip",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[0,63][231,189]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "org.mozilla.focus",
+        "activity": "org.mozilla.focus.activity.MainActivity",
+        "resource-id": "org.mozilla.focus:id/urlView",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[21,86][954,191]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ]
+    },
+    {
+        "class": "EMPTY_EVENT",
+        "score": 0,
+        "event_type": "Timeout"
+    }
+]

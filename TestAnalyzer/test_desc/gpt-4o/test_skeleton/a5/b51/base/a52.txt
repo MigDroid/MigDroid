@@ -1,0 +1,5 @@
+Functionality under test: The app's ability to calculate the final bill amount by applying a 15% tip to a $56.6 bill.
+Semantic steps: 
+1. Peripheral Step: Dismiss the initial popup. [Click the "Skip" button to dismiss the "Connect to internet" popup].
+2. Key Step: Enter bill amount and tip percentage. [Input 56.6 as the bill amount and 15 as the tip percentage].
+Stop condition: Got the observation that a text field with text '65.09' has Appear, it is the final bill amount.

@@ -1,0 +1,20 @@
+Functionality Under Test:
+The script tests the app's ability to calculate and display the correct amount each person pays based on inputs.
+Interaction Steps:
+1. Interaction: Click OK button to dismiss the update dialog.
+2. Interaction: Click Calculator option to open the calculator screen.
+3. Interaction: Click Bill Amount field to input bill amount.
+4. Interaction: Click 5 button to input '5' in bill amount.
+5. Interaction: Click 6 button to input '6' in bill amount.
+6. Interaction: Click . button to input decimal in bill amount.
+7. Interaction: Click 6 button to input '6' in bill amount.
+8. Interaction: Click OK button to confirm bill amount.
+9. Interaction: Click Tip Percentage field to input tip percentage.
+10. Interaction: Click 1 button to input '1' in tip percentage.
+11. Interaction: Click 5 button to input '5' in tip percentage.
+12. Interaction: Click OK button to confirm tip percentage.
+13. Interaction: Click No. of People field to input number of people.
+14. Interaction: Click 4 button to input '4' in number of people.
+15. Interaction: Click OK button to confirm number of people.
+Stop Condition:
+Got the observation that a text field subject with text '16.27' has Appear, it is the amount each person pays, which means the calculation is correct.

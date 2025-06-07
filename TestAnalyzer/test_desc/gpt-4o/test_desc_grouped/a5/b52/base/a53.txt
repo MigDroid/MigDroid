@@ -1,0 +1,9 @@
+Functionality Under Test: The script tests the app's ability to calculate and display the correct per person amount.
+Test Steps: 
+1. Dismiss privacy notice. [Click Accept Button to dismiss privacy notice].
+2. Set bill amount to 56.6. [Input 56.6 Bill Amount to set bill value].
+3. Set tip percentage to 15. [Input 15 Tip Percentage to set tip percentage].
+4. Set split number to 4. [Input 4 Split Number to set number of people].
+5. Calculate per person amount. [Click Calculate Button to compute total and per person amounts].
+
+Stop Condition: Got the observation that a TextView subject with text "$16.27" has Appear, it is the per person amount.

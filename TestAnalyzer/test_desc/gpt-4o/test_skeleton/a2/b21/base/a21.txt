@@ -1,0 +1,5 @@
+Functionality under test: Adding a new task 'Sample Todo' to the ToDo list and verifying its presence by checking if it appears in the list.
+Semantic steps: 
+1. Key Step: Open new task screen by clicking Add button. [Click the '+' button to open the new task screen.]
+2. Key Step: Enter task details 'Sample Todo' in text field and save. [Input 'Sample Todo' in the Title field, then click the right arrow button to save.]
+Stop condition: Got the observation that a TextView with text 'Sample Todo' has Appeared, it is the new task.

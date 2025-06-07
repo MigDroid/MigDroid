@@ -1,0 +1,6 @@
+Functionality Under Test: Verify total amount calculation based on bill amount and tip percentage inputs.
+Test Steps: 
+1. Input Bill Amount as 56.6. [Click Bill Amount field, input '56.6', confirm with OK].
+2. Input Tip Percent as 15. [Click Tip Percent field, input '15', confirm with OK].
+
+Stop Condition: Got the observation that a text field subject with text '65.09' has Appear, it is the Total Amount.

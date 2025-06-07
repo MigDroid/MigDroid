@@ -1,0 +1,9 @@
+Functionality Under Test:
+Creating and saving a new note with a specified title in the ToDo List app.
+Interaction Steps:
+1. Interaction: Click Allow button to grant notification permission.
+2. Interaction: Click Take a note… button to start a new note.
+3. Interaction: Send keys 'Sample Todo' to title field to input note title.
+4. Interaction: Click Navigate up button to save and exit the note.
+Stop Condition:
+Got the observation that a TextView subject with text "Sample Todo" has Appeared, it is the note title, which means the note was successfully created.

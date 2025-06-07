@@ -1,0 +1,126 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Don\u2019t allow",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.google.android.permissioncontroller",
+        "activity": "",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[137,1368][943,1522]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.duckduckgo.mobile.android:id/primaryCta",
+        "text": "Let's do it!",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "com.duckduckgo.app.onboarding.ui.OnboardingActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[110,839][970,1004]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.duckduckgo.mobile.android:id/primaryCta",
+        "text": "Choose Your Browser",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "com.duckduckgo.app.onboarding.ui.OnboardingActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[110,1516][970,1681]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button2",
+        "text": "Cancel",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.google.android.permissioncontroller",
+        "activity": "",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[486,1906][670,2055]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.duckduckgo.mobile.android:id/omnibarTextInput",
+        "text": "Search or type URL",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "com.duckduckgo.app.browser.BrowserActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[128,158][682,268]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a19",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "com.duckduckgo.app.browser.BrowserActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,913][863,999]"
+    }
+]

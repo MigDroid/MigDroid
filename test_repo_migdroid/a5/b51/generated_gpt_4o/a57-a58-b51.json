@@ -1,0 +1,141 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[575,370][948,502]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[668,1162][908,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[420,1162][660,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".mvvm.home.MainActivity",
+        "resource-id": "com.pappswork.tipcalculator:id/buttonZero",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[420,1438][660,1576]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".mvvm.home.MainActivity",
+        "resource-id": "com.pappswork.tipcalculator:id/buttonDot",
+        "text": "\u2022",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[172,1438][412,1576]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".mvvm.home.MainActivity",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[668,1162][908,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".mvvm.home.MainActivity",
+        "resource-id": "com.pappswork.tipcalculator:id/btn_back",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[784,809][908,933]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "EMPTY_EVENT",
+        "score": 0,
+        "event_type": "Timeout"
+    }
+]

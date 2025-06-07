@@ -1,0 +1,10 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate and display web pages correctly.
+Interaction Steps:
+1. Interaction: Click search bar to focus input.
+2. Interaction: Input 'https://www.ics.uci.edu' search bar to navigate website.
+3. Interaction: Click search bar to focus input.
+4. Interaction: Input 'https://uci.edu' search bar to navigate website.
+5. System Event: KEY_BACK to return to previous page.
+Stop Condition:
+Got the observation that a view subject with 'UCI ICS logo' has appeared, it is a logo, which means the page loaded successfully.

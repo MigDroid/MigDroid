@@ -1,0 +1,6 @@
+Functionality Under Test: The app's ability to calculate the total amount including tip.
+Test Steps: 
+1. Input the bill amount to calculate total. [Input 56.6 as the Bill Amount].
+2. Input the tip percent to calculate total. [Input 15 as the Tip Percent].
+
+Stop Condition: Got the observation that a Total Amount subject with text '65.09' has appeared, it is the calculated total.

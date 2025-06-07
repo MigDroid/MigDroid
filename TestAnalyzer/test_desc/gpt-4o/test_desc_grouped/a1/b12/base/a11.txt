@@ -1,0 +1,7 @@
+Functionality Under Test: The browser's ability to navigate and display web pages correctly.
+Test Steps: 
+1. Navigate to UCI ICS website. [Click search bar, input 'https://www.ics.uci.edu'].
+2. Navigate to UCI main website. [Click search bar, input 'https://uci.edu'].
+3. Return to previous page. [Press KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with 'UCI ICS logo' has appeared, it is a logo.

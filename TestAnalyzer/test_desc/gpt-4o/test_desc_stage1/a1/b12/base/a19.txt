@@ -1,0 +1,13 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to a specified URL and display the correct webpage.
+Interaction Steps:
+1. Interaction: Click "Don’t allow" button to deny notification permission.
+2. Interaction: Click "Let's do it!" button to proceed with onboarding.
+3. Interaction: Click "Choose Your Browser" button to select browser.
+4. Interaction: Click "Cancel" button to dismiss dialog.
+5. Interaction: Input "https://www.ics.uci.edu" in search bar to navigate.
+6. Interaction: Click search bar with URL to focus.
+7. Interaction: Input "https://uci.edu" in search bar to navigate.
+8. System Event: KEY_BACK to return to previous screen.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo, which means the page loaded successfully.

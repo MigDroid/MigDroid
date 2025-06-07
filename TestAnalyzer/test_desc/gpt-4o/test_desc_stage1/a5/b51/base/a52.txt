@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the app's ability to calculate the final bill with a given tip percentage.
+Interaction Steps:
+1. Interaction: Click Skip button to dismiss the popup.
+2. Interaction: Input 56.6 bill amount to calculate the tip.
+3. Interaction: Input 15 tip percentage to calculate the final bill.
+Stop Condition:
+Got the observation that a text field subject with text '65.09' has Appear, it is the final bill amount, which means the calculation is correct.

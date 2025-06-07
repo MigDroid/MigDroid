@@ -1,0 +1,189 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/browse_text_note",
+        "text": "",
+        "content-desc": "Sample Todo. ",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,334][529,487]",
+        "children": [
+            {
+                "class": "android.widget.FrameLayout",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[25,337][526,484]",
+                "children": [
+                    {
+                        "class": "android.widget.LinearLayout",
+                        "package": "com.google.android.keep",
+                        "activity": "",
+                        "resource-id": "com.google.android.keep:id/backdrop",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[25,337][526,484]",
+                        "children": [
+                            {
+                                "class": "android.widget.LinearLayout",
+                                "package": "com.google.android.keep",
+                                "activity": "",
+                                "resource-id": "com.google.android.keep:id/browse_note_interior_content",
+                                "text": "",
+                                "content-desc": "",
+                                "clickable": "false",
+                                "checkable": "false",
+                                "checked": "false",
+                                "focused": "false",
+                                "enabled": "true",
+                                "bounds": "[25,337][526,484]",
+                                "children": [
+                                    {
+                                        "class": "android.widget.TextView",
+                                        "package": "com.google.android.keep",
+                                        "activity": "",
+                                        "resource-id": "com.google.android.keep:id/index_note_text_description",
+                                        "text": "Sample Todo",
+                                        "content-desc": "",
+                                        "clickable": "false",
+                                        "checkable": "false",
+                                        "checked": "false",
+                                        "focused": "false",
+                                        "enabled": "true",
+                                        "bounds": "[69,381][482,440]"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "More options",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[969,147][1080,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[530,279][1069,411]",
+        "children": [
+            {
+                "class": "android.widget.LinearLayout",
+                "package": "com.google.android.keep",
+                "activity": "",
+                "resource-id": "com.google.android.keep:id/content",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[530,279][1069,411]",
+                "children": [
+                    {
+                        "class": "android.widget.RelativeLayout",
+                        "package": "com.google.android.keep",
+                        "activity": "",
+                        "resource-id": "",
+                        "text": "",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[574,315][1025,374]",
+                        "children": [
+                            {
+                                "class": "android.widget.TextView",
+                                "package": "com.google.android.keep",
+                                "activity": "",
+                                "resource-id": "com.google.android.keep:id/title",
+                                "text": "Delete",
+                                "content-desc": "",
+                                "clickable": "false",
+                                "checkable": "false",
+                                "checked": "false",
+                                "focused": "false",
+                                "enabled": "true",
+                                "bounds": "[574,315][1025,374]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.google.android.keep",
+        "activity": "",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

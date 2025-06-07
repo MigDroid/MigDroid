@@ -1,0 +1,4 @@
+Functionality under test: The test verifies the browser app's ability to navigate to "https://ics.uci.edu" and correctly load the webpage, confirmed by the appearance of the "UCI ICS logo".
+Semantic steps: 
+1. Key Step: Focus on the URL bar and enter the URL. [Click the URL bar to focus, then enter "https://ics.uci.edu" to navigate].
+Stop condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the website logo.

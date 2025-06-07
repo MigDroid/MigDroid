@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/task_content",
+        "text": "",
+        "content-desc": "Item 1 of 1,  task Sample Todo",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,385][1058,561]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "swipe_right"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/new_todo_fab",
+        "text": "",
+        "content-desc": "Add a task",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[882,2076][1036,2230]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/create_task_edit_text",
+        "text": "Add a task",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[165,1903][901,1962]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/task_content",
+        "text": "",
+        "content-desc": "Item 2 of 2,  task Sample Todo, Added to My Day",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,492][1058,668]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "swipe_right"
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+Functionality under test: The app calculates the total amount, including a 15% tip, for a $56.6 bill, resulting in $65.09.
+Semantic steps: 
+1. Peripheral Step: Dismiss privacy notice. [Click the Accept button to dismiss the privacy notice dialog.]
+2. Key Step: Set bill amount to 56.6. [Enter 56.6 in the Bill field.]
+3. Key Step: Set tip percentage to 15. [Ensure 15 is entered in the Tip field.]
+4. Key Step: Calculate total amount. [Click the Calculate button to compute the total amount.]
+Stop condition: Got the observation that a TextView subject with text $65.09 has Appear, it is the total amount.

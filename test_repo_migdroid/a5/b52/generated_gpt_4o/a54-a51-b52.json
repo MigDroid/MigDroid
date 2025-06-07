@@ -1,0 +1,121 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "resource-id": "anti.tip:id/bill",
+        "text": "0.00",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[540,98][1080,260]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "resource-id": "anti.tip:id/people",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[540,260][1080,422]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "resource-id": "anti.tip:id/people",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[540,260][1080,422]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "4"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "resource-id": "anti.tip:id/percent",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[540,422][1080,584]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "resource-id": "anti.tip:id/percent",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[540,422][1080,584]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "anti.tip:id/each",
+        "text": "16.27",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "anti.tip",
+        "activity": "anti.tip.Tip",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[540,908][1080,1070]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "16.27"
+        ]
+    }
+]

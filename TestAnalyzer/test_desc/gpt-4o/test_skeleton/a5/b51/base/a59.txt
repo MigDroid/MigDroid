@@ -1,0 +1,4 @@
+Functionality under test: The app calculates the total amount including a tip by entering a base amount of '56.6', resulting in a total of '65.09'.
+Semantic steps: 
+1. Key Step: Input base amount to calculate total with tip. [Enter '56.6' in the BASE field and observe the calculated TOTAL as '65.09'].
+Stop condition: Got the observation that a TOTAL field with text '65.09' has appeared, it is the calculated total.

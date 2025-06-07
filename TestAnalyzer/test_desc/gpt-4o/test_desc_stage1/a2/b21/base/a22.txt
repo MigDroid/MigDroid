@@ -1,0 +1,8 @@
+Functionality Under Test:
+Adding a new task to the ToDo list and verifying its presence.
+Interaction Steps:
+1. Interaction: Click Add Button to open new task input.
+2. Interaction: Input 'Sample Todo' Text Field to enter task title.
+3. Interaction: Click Add Button to save new task.
+Stop Condition:
+Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is a task item, which means the task was successfully added.

@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "android:id/button2",
+        "text": "CANCEL",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[415,1258][628,1407]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/create_list_text_view",
+        "text": "New list",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,2142][898,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/edit_text",
+        "text": "Enter list title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[253,961][965,1093]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.microsoft.todos:id/task_title",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.microsoft.todos",
+        "activity": "com.microsoft.todos.ui.LaunchActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo (1)"
+        ],
+        "bounds": "[0,0][1080,374]"
+    }
+]

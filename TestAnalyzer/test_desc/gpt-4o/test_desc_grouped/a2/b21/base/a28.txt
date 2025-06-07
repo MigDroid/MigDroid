@@ -1,0 +1,8 @@
+Functionality Under Test: Adding a new task to the task list in the ToDo List app.
+Test Steps: 
+1. Grant notification permission. [Click Allow button].
+2. Bypass initial setup. [Click Skip button].
+3. Open task list. [Click Tasks list].
+4. Add a new task. [Click Add button, Input "Sample Todo" in text field, Click Add button].
+
+Stop Condition: Got the observation that a TextView subject with text "Sample Todo" has Appeared, it is a task item.

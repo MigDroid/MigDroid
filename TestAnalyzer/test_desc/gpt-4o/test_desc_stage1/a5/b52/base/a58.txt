@@ -1,0 +1,18 @@
+Functionality Under Test:
+The script tests the calculation of total and per person payment based on bill amount, tip percent, and number of people.
+Interaction Steps:
+1. Interaction: Click Bill Amount field to input value.
+2. Interaction: Click number 5 button to input value.
+3. Interaction: Click number 6 button to input value.
+4. Interaction: Click decimal point button to input value.
+5. Interaction: Click number 6 button to input value.
+6. Interaction: Click OK button to confirm input.
+7. Interaction: Click Tip Percent field to input value.
+8. Interaction: Click number 1 button to input value.
+9. Interaction: Click number 5 button to input value.
+10. Interaction: Click OK button to confirm input.
+11. Interaction: Click No. of People field to input value.
+12. Interaction: Click number 4 button to input value.
+13. Interaction: Click OK button to confirm input.
+Stop Condition:
+Got the observation that a text field subject with text '16.27' has Appear, it is the Each Person Pays field, which means the calculation is correct.

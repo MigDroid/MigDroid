@@ -1,0 +1,7 @@
+Functionality Under Test: Test browser's navigation between URLs and returning to a previous page.
+Test Steps: 
+1. Key Step: Navigate to ICS website. [Click URL bar, enter 'https://www.ics.uci.edu'].
+2. Key Step: Navigate to UCI website. [Click URL bar, enter 'https://uci.edu'].
+3. Key Step: Return to previous page. [Press KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with content-desc 'UCI ICS logo' has appeared, it is the ICS logo.

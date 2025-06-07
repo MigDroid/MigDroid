@@ -1,0 +1,6 @@
+Functionality under test: The script tests the calculation of the total bill amount, including a 15% tip, based on a $56.6 bill input.
+Semantic steps: 
+1. Key Step: Set the bill amount to 56.6. [Input 56.6 into the Bill field].
+2. Key Step: Set the tip percentage to 15. [Input 15 into the Tip percent field].
+3. Key Step: Calculate the total bill amount. [Click the CALCULATE button].
+Stop condition: Got the observation that a TextView with text '65.09' has appeared, it is the Total Bill Amount.

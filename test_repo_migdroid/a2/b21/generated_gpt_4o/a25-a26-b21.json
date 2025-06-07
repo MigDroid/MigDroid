@@ -1,0 +1,41 @@
+[
+    {
+        "class": "android.widget.ImageView",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/new_list_button",
+        "text": "",
+        "content-desc": "New list",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[552,2142][684,2274]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.keep",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.google.android.keep:id/description",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[215,489][953,560]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    }
+]

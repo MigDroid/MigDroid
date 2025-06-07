@@ -1,0 +1,12 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to a specified URL and load the page.
+Interaction Steps:
+1. Interaction: Click Allow button to grant permission.
+2. Interaction: Click Continue button to proceed.
+3. Interaction: Click Continue button to proceed.
+4. Interaction: Click Skip button to bypass setup.
+5. Interaction: Click Don’t allow button to deny permission.
+6. Interaction: Click URL field to focus on input.
+7. Interaction: Send keys and enter "https://www.ics.uci.edu" URL field to navigate to website.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has Appear, it is a logo, which means the page loaded successfully.

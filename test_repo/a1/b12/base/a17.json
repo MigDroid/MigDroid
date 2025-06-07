@@ -1,0 +1,253 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.opera.mini.native:id/allow_button",
+        "text": "Allow",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[265,2087][815,2208]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.opera.mini.native:id/action_button",
+        "text": "Continue",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[265,2087][815,2208]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.opera.mini.native:id/action_button",
+        "text": "Continue",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[265,2087][815,2208]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.opera.mini.native:id/skip_button",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[838,202][1036,323]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Don\u2019t allow",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[137,1368][943,1522]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.opera.mini.native:id/url_field",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.opera.mini.native:id/url_field",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[140,169][918,290]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.opera.mini.native:id/url_field",
+        "text": "https://www.ics.uci.edu",
+        "content-desc": "Padlock icon",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[58,169][822,290]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.opera.mini.native:id/url_field",
+        "text": "https://www.ics.uci.edu",
+        "content-desc": "Padlock icon",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[58,169][822,290]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UC Irvine homepage",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UC Irvine homepage\"]"
+        ]
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT",
+        "tid": "a17"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a17",
+        "package": "com.opera.mini.native",
+        "activity": "com.opera.mini.android.Browser",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ]
+    }
+]

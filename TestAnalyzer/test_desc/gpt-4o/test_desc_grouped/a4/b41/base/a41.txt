@@ -1,0 +1,6 @@
+Functionality Under Test: The email search feature within the Mail Client app.
+Test Steps: 
+1. Initiate email search by clicking the Search icon.
+2. Enter 'Automated' in the search box to find emails.
+
+Stop Condition: Got the observation that a TextView subject with text 'Automated Software Engineering' has Appeared, it is the email subject.

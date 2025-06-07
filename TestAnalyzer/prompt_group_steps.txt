@@ -1,0 +1,27 @@
+I have a GUI test written for a $$$category$$$ Android app.
+The functionality under test is: $$$fut$$$
+
+Here are the interaction steps:
+$$$interaction_steps$$$
+
+After the interactions, the tester should check whether the test is complete or not, according to the following stop condition:
+Stop Condition: $$$stop_condition$$$
+
+When the app is just opened, the screen is shown as the left side of the attached image.
+After executing the interactions, the app's screen is shown as the right side of the attached image.
+
+As above, each of the interaction steps is an atomic interaction. 
+Here we define a term "semantic step," which means some of the test steps can be grouped with adjacent steps, forming a semantic step that is semantically meaningful to the functionality under test.
+
+Now convert the test case into the form of semantic steps. It is possible that a semantic step is composed of one or several test steps.
+
+Your answer should strictly follow the format below:
+(Guidance for you: Each semantic step should be semantically atomic, that means each step should hold a complete meaning, but each of its sub-step does not. Use no more than 20 words for each step, for input actions, you should include the exact input content in the step)
+Semantic Steps:
+1. [step's intention and operation].[Detailed operations: summarize the interaction details from the corresponding interaction step(s) here].  This step is grouped from [test step ids].
+2. [step's intention and operation].  This step is grouped from [test step ids]
+...
+
+Stop Condition: [Follow this format: Got the observation that a {describe the subject} with {feature} has {Appear/Disappear}, it is {describe the subject}.]
+
+Functionality Under Test: [The functionality being tested by the script. Use no more than 30 words]

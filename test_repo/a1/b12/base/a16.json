@@ -1,0 +1,177 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.chrome:id/negative_button",
+        "text": "No thanks",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "org.chromium.chrome.browser.firstrun.FirstRunActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[446,1673][688,1805]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.chrome:id/search_box_text",
+        "text": "Search or type web address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[77,356][832,488]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "Search or type web address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[154,144][761,282]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "ics.uci.edu",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[231,144][794,282]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "Search or type web address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[154,144][761,282]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UC Irvine homepage",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UC Irvine homepage\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,290][313,435]"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT",
+        "tid": "a16"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "true",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a16",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ]
+    }
+]

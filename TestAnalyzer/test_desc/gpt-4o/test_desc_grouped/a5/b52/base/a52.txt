@@ -1,0 +1,8 @@
+Functionality Under Test: The app's ability to calculate and display the per person cost correctly.
+Test Steps: 
+1. Dismiss the initial popup. [Click the Skip button to dismiss the popup].
+2. Set the bill amount to 56.6. [Input 56.6 in the Bill field].
+3. Set the tip percentage to 15. [Input 15 in the Tip % field].
+4. Set the number of ways to split to 4. [Input 4 in the Split Bill field].
+
+Stop Condition: Got the observation that a text field subject with text '16.27' has Appear, it is the Per Person field.

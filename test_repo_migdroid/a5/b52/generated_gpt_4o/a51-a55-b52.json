@@ -1,0 +1,141 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,549][1038,667]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,549][1038,667]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,431][1038,549]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,431][1038,549]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etPerson",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,313][1038,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etPerson",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[513,313][1038,431]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "4"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/tvTotalWithTip",
+        "text": "$ 1.15",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": "com.jpstudiosonline.tipcalculator.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[287,817][1038,888]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "$ 1.15"
+        ]
+    }
+]

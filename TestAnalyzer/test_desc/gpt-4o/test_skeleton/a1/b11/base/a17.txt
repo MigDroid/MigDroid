@@ -1,0 +1,6 @@
+Functionality under test: Test the browser's ability to navigate to "https://www.ics.uci.edu" and verify page load by checking for the UCI ICS logo.
+Semantic steps: 
+1. Peripheral Step: Grant initial permissions and proceed through setup. [Click Allow for notifications, then click Continue twice, and click Skip].
+2. Peripheral Step: Deny location permission. [Click Don’t allow button for location access].
+3. Key Step: Enter URL to navigate to the website. [Click URL field, send keys "https://www.ics.uci.edu", and press Enter].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has Appear, it is a logo.

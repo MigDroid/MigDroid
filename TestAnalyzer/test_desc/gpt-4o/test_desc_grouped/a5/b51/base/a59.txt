@@ -1,0 +1,5 @@
+Functionality Under Test: The app's ability to calculate the total amount including a tip.
+Test Steps: 
+1. Input base amount to calculate total with tip. [Enter '56.6' in the BASE field].
+
+Stop Condition: Got the observation that a total amount subject with text '65.09' has Appeared, it is the calculated total.

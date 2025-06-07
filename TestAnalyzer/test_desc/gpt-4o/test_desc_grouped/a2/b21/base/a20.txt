@@ -1,0 +1,8 @@
+Functionality Under Test: Adding a new task to the ToDo List and verifying its presence.
+Test Steps: 
+1. Grant notification permission. [Click Allow button to grant notification permission].
+2. Add a new note. [Click Save and add note button to add a new note].
+3. Focus on input area and add task. [Click text field to focus on input area, Input 'Sample Todo' text field to add a new task].
+4. Return to main screen. [Click Navigate up button to return to the main screen].
+
+Stop Condition: Got the observation that a text subject with 'Sample Todo' has appeared, it is a task item.

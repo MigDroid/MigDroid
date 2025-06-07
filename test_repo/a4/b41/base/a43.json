@@ -1,0 +1,93 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "ru.mail.mailapp:id/icon_search",
+        "text": "",
+        "content-desc": "Mails search",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a43",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.portal.MailPortalActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[964,359][1063,491]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "ru.mail.mailapp:id/search_text",
+        "text": "Search Text",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a43",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.SearchActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "id",
+            "ru.mail.mailapp:id/search_text"
+        ],
+        "long_clickable": "True",
+        "bounds": "[165,183][937,246]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "ru.mail.mailapp:id/search_text",
+        "text": "Search Text",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a43",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[165,183][937,246]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "ru.mail.mailapp:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a43",
+        "package": "ru.mail.mailapp",
+        "activity": "ru.mail.ui.SearchActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[242,531][1036,594]"
+    }
+]

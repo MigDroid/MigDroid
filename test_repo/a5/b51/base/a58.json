@@ -1,0 +1,228 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "xpath": "(//android.widget.EditText[@resource-id=\"com.pappswork.tipcalculator:id/edt_value\"])[1]",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Bill Amount",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[575,370][948,502]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/button5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[420,1162][660,1300]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[668,1162][908,1300]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/buttonDot",
+        "text": "\u2022",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[172,1438][412,1576]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[668,1162][908,1300]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/btnDone",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[541,1635][936,1786]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "xpath": "//android.widget.EditText[@resource-id=\"com.pappswork.tipcalculator:id/edt_value\" and @text=\"15\"]",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[575,530][948,662]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.pappswork.tipcalculator:id/button1",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[172,1300][412,1438]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/button5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[420,1162][660,1300]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.pappswork.tipcalculator:id/btnDone",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator/.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[541,1635][936,1786]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "xpath": "//android.widget.EditText[@resource-id=\"com.pappswork.tipcalculator:id/edt_value\" and @text=\"65.09\"]",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a58",
+        "package": "anti.tip",
+        "activity": ".Tip",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ],
+        "long_clickable": "True",
+        "bounds": "[575,1010][948,1142]"
+    }
+]

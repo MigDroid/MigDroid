@@ -1,0 +1,46 @@
+[
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".MainActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "5",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[371,1728][709,1910]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".MainActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "6",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[709,1728][1047,1910]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "EMPTY_EVENT",
+        "score": 0,
+        "event_type": "Timeout"
+    }
+]

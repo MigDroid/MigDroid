@@ -1,0 +1,223 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/step1_next",
+        "text": "NEXT",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,2081][1025,2246]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/step3_next",
+        "text": "NEXT",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[55,2081][1025,2246]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "resource-id": "com.android.permissioncontroller:id/permission_deny_button",
+        "text": "Don\u2019t allow",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[137,1368][943,1522]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/btn_start_skip",
+        "text": "SKIP",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[61,1999][281,2219]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/bottom_fab",
+        "text": "",
+        "content-desc": "Add",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[463,2043][617,2197]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[71,1129][1009,1267]",
+        "children": [
+            {
+                "class": "android.widget.ImageView",
+                "package": "com.socialnmobile.dictapps.notepad.color.note",
+                "activity": "",
+                "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/icon",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[137,1156][220,1239]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.socialnmobile.dictapps.notepad.color.note",
+                "activity": "",
+                "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/text",
+                "text": "Text",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[220,1129][333,1267]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/edit_note",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[0,327][1080,2021]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/back_btn",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][154,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": ".activities.BrowseActivity",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/back_btn",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,136][154,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.socialnmobile.dictapps.notepad.color.note:id/title",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.socialnmobile.dictapps.notepad.color.note",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[34,374][764,550]"
+    }
+]

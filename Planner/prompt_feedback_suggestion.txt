@@ -1,0 +1,33 @@
+I have a $$$category$$$ Android app (target app) and I want to test this functionality of it:
+$$$func$$$
+
+A test skeleton written for another app (source app) with a similar functionality is provided for soft reference.
+Test Skeleton for Source App:
+$$$src_test_desc$$$
+
+A tip about the skeleton: Each skeleton step contains two parts. The first part is the intention of the step, and the second part is the detailed operations to complete the step. You should achieve the intention of the steps, but no need to follow the detailed operations strictly, since the detailed operations are based on the source app, not our app.
+
+Now I am interacting with our app step by step to test its functionality.
+$$$event_history_desc$$$
+
+The completeness of skeleton steps is as follows:
+$$$skeleton_completeness$$$
+
+This is the skeleton step I am currently working on:
+Among them, "step in progress" means the step needs multiple interactions to finish, and it is in the middle.
+"Step to start" means the step is just about to start, without any interaction executed yet.
+"Extra Interaction" means the interaction needed before starting a new step to set up or handle app-specific behavior. If it is not None, I should execute it before the step to start.
+$$$step_status$$$
+
+Up to now, the app's screen is shown in the attached image.
+I just tried executing this interaction (rejected interaction) on the widget annotated with a red box to progress the skeleton step:
+$$$current_interaction$$$
+
+But it seems that the interaction did not progress the test correctly. So I just came back to choose another interaction.
+The reason why I rejected the interaction is: $$$reject_reason$$$
+
+Do you think I should still interact with this widget but try another action on it? Or should I choose another widget to interact with?
+Now give me suggestions on what interaction I should execute next to progress the test. Your suggestions should be based on the current screen of the app, the skeleton step that needs to be progressed, and the reason why the rejected interaction is not correct.
+
+Your answer should strictly follow this format:
+Interaction Suggestions: [Describe the interaction you suggest to execute, and explain why. Use no more than 30 words.]

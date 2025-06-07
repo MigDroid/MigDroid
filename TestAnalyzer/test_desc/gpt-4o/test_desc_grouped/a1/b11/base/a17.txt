@@ -1,0 +1,7 @@
+Functionality Under Test: Test browser's ability to navigate to a specified URL and load the page.
+Test Steps: 
+1. Grant initial permissions and proceed through setup. [Click Allow, then click Continue twice, and click Skip].
+2. Deny location permission. [Click Don’t allow button].
+3. Enter URL to navigate to the website. [Click URL field, send keys "https://www.ics.uci.edu"].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has Appear, it is a logo.

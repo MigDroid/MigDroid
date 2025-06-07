@@ -1,0 +1,88 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "anti.tip:id/bill",
+        "text": "0.00",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Bill Amount",
+        "tid": "a51",
+        "package": "anti.tip",
+        "activity": ".Tip",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "clear_and_send_keys",
+            "56.6"
+        ],
+        "long_clickable": "True",
+        "bounds": "[540,98][1080,260]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "anti.tip:id/percent",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Tip Percent (%)",
+        "tid": "a51",
+        "package": "anti.tip",
+        "activity": ".Tip",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "clear_and_send_keys",
+            "15"
+        ],
+        "long_clickable": "True",
+        "bounds": "[540,422][1080,584]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "anti.tip:id/people",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " # Of People",
+        "tid": "a51",
+        "package": "anti.tip",
+        "activity": ".Tip",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "clear_and_send_keys_and_hide_keyboard",
+            "4"
+        ],
+        "long_clickable": "True",
+        "bounds": "[540,260][1080,422]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "anti.tip:id/each",
+        "text": "16.27",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": " Each Person Pays",
+        "tid": "a51",
+        "package": "anti.tip",
+        "activity": ".Tip",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "16.27"
+        ],
+        "long_clickable": "True",
+        "bounds": "[540,908][1080,1070]"
+    }
+]

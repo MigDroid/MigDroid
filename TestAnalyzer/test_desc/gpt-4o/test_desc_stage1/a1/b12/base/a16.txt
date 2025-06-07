@@ -1,0 +1,11 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to and display the UCI ICS website correctly.
+Interaction Steps:
+1. Interaction: Click 'No thanks' button to dismiss notification prompt.
+2. Interaction: Click search box to focus on input field.
+3. Interaction: Send keys 'https://www.ics.uci.edu' and enter to navigate to ICS website.
+4. Interaction: Click URL bar to refocus on input field.
+5. Interaction: Send keys 'https://uci.edu' and enter to navigate to UCI website.
+6. System Event: KEY_BACK to return to previous page.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo, which means the ICS website loaded successfully.

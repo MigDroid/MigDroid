@@ -1,0 +1,8 @@
+Functionality Under Test:
+Adding a new item to the shopping list.
+Interaction Steps:
+1. Interaction: Click Add button to open new item entry.
+2. Interaction: Input 'Sample Todo' in description field to specify new item.
+3. Interaction: Click Done button to add the new item.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has appeared, it is a list item, which means the item was successfully added.

@@ -1,0 +1,9 @@
+Functionality Under Test: Test browser's ability to navigate to specified URLs and display correct webpages.
+Test Steps: 
+1. Deny notification permission. [Click "Don’t allow" button].
+2. Complete onboarding process. [Click "Let's do it!" button, then "Choose Your Browser" button, and "Cancel" button].
+3. Navigate to UCI ICS website. [Input "https://www.ics.uci.edu" in search bar and click to focus].
+4. Navigate to UCI main website. [Input "https://uci.edu" in search bar].
+5. Return to previous screen. [System Event: KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

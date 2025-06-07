@@ -1,0 +1,7 @@
+Functionality Under Test: The ability to add and delete tasks in the ToDo List app.
+Test Steps: 
+1. Dismiss the welcome message and prevent future messages. [Click 'No thanks' and 'Never again' buttons].
+2. Add a new task 'Sample Todo'. [Click input field, input 'Sample Todo'].
+3. Delete the task 'Sample Todo'. [Long press 'Sample Todo', click 'Delete Task' option].
+
+Stop Condition: Got the observation that a task subject with text 'Sample Todo' has Disappear, it is a task item.

@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to a specified URL and load the webpage correctly.
+Interaction Steps:
+1. Interaction: Click Skip button to bypass the introduction screen.
+2. Interaction: Click address bar to focus on input field.
+3. Interaction: Send keys and enter "https://www.ics.uci.edu" to navigate to the website.
+Stop Condition:
+Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the website logo, which means the page loaded successfully.

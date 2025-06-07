@@ -1,0 +1,6 @@
+Functionality Under Test: The script tests the ability to add and delete a list item in the ToDo List app.
+Test Steps: 
+1. Add a new list item 'Sample Todo'. [Input 'Sample Todo' in text field and click 'Add' button].
+2. Delete the list item 'Sample Todo'. [Long press on 'Sample Todo', click 'Delete', and confirm deletion].
+
+Stop Condition: Got the observation that a list item with text 'Sample Todo' has Disappeared, it is deleted.

@@ -1,0 +1,41 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.google.android.gm",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.google.android.gm:id/open_search",
+        "text": "Search in mail",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,158][1036,290]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.gm:id/search_overlay_item_text",
+        "text": "Automated",
+        "content-desc": "Suggestion: Automated",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.google.android.gm",
+        "activity": "com.google.android.gm.ConversationListActivityGmail",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated"
+        ],
+        "bounds": "[154,617][1080,679]"
+    }
+]

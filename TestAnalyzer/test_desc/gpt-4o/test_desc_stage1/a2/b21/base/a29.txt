@@ -1,0 +1,9 @@
+Functionality Under Test:
+Adding a new task to the ToDo list and verifying its presence.
+Interaction Steps:
+1. Interaction: Click "No thanks" button to dismiss the welcome message.
+2. Interaction: Click "Never again" button to dismiss the tour prompt.
+3. Interaction: Click input field to focus on adding a task.
+4. Interaction: Input "Sample Todo" task to add a new task.
+Stop Condition:
+Got the observation that a task subject with text "Sample Todo" has appeared, it is a new task entry, which means the task was successfully added.

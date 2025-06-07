@@ -1,0 +1,6 @@
+Functionality under test: The script tests the browser's ability to navigate to 'https://www.ics.uci.edu' and verify the page loads by checking for the "UCI ICS logo".
+Semantic steps: 
+1. Peripheral Step: Dismiss initial dialogs. [Click the OK button, then click the Cancel button to dismiss the changelog dialog].
+2. Peripheral Step: Focus on search bar. [Tap the search bar to activate the input field].
+3. Key Step: Navigate to specified URL. [Enter 'https://www.ics.uci.edu' in the search bar and press enter to load the webpage].
+Stop condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is a webpage element.

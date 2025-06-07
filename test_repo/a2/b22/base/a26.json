@@ -1,0 +1,189 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.android.permissioncontroller:id/permission_allow_button",
+        "text": "Allow",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+        "package": "com.google.android.permissioncontroller",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[137,1202][943,1356]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.keep:id/new_note_button",
+        "text": "Take a note\u2026",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[0,2142][552,2274]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.google.android.keep:id/editable_title",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Sample Todo"
+        ],
+        "tid": "a26",
+        "long_clickable": "True",
+        "bounds": "[55,356][1041,431]"
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[0,136][154,290]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.keep:id/index_note_title",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "oracle",
+        "ignorable": "false",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.widget.TextView[@text=\"Sample Todo\"]"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[69,381][482,437]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.keep:id/index_note_title",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "long_press"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[69,381][482,437]"
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "More options",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a26",
+        "long_clickable": "True",
+        "bounds": "[969,147][1080,279]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.keep:id/title",
+        "text": "Delete",
+        "content-desc": "More options",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "gui",
+        "ignorable": "false",
+        "action": [
+            "click"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[574,315][1025,374]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "activity": ".activities.BrowseActivity",
+        "package": "com.google.android.keep",
+        "event_type": "oracle",
+        "ignorable": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "tid": "a26",
+        "long_clickable": "False",
+        "bounds": "[574,183][1025,242]"
+    }
+]

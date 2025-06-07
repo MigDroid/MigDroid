@@ -1,0 +1,147 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "kdk.android.simplydo:id/AddListEditText",
+        "text": "New List Name",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Sample Todo"
+        ],
+        "long_clickable": "True",
+        "bounds": "[0,129][956,259]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "kdk.android.simplydo:id/AddListButton",
+        "text": "Add",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Sample Todo",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[956,129][1080,259]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "kdk.android.simplydo:id/text1",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "long_clickable": "False",
+        "bounds": "[26,285][971,363]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "kdk.android.simplydo:id/text1",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ],
+        "long_clickable": "False",
+        "bounds": "[26,285][971,363]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "android:id/title",
+        "text": "Delete",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[187,1043][898,1121]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button1",
+        "text": "Yes",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[106,1027][542,1153]"
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a24",
+        "package": "kdk.android.simplydo",
+        "activity": ".SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.stoutner.privacybrowser.standard",
+        "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+        "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+        "text": "https://html.duckduckgo.com/html",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[268,77][843,195]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.stoutner.privacybrowser.standard",
+        "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+        "resource-id": "com.stoutner.privacybrowser.standard:id/url_edittext",
+        "text": "https://html.duckduckgo.com/html",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[268,77][843,195]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Donald Bren School of Information and Computer Sciences blue wordmark",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.stoutner.privacybrowser.standard",
+        "activity": "com.stoutner.privacybrowser.activities.MainWebViewActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "content-desc",
+            "Donald Bren School of Information and Computer Sciences blue wordmark"
+        ],
+        "bounds": "[42,294][44,296]"
+    }
+]

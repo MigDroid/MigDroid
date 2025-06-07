@@ -1,0 +1,7 @@
+Functionality under test: The test verifies creating and saving a new note titled "Sample Todo" in the ToDo List app, ensuring the note appears in the list.
+Semantic steps: 
+1. Peripheral Step: Grant notification permission. [Click the "Allow" button to grant notification permission for the app].
+2. Key Step: Start creating a new note. [Click the "Take a note…" button to initiate creating a new note].
+3. Key Step: Input note title 'Sample Todo'. [Enter 'Sample Todo' into the title field to set the note title].
+4. Key Step: Save and exit the note. [Click the "Navigate up" button to save the note and exit the editing screen].
+Stop condition: Got the observation that a TextView subject with text "Sample Todo" has appeared, it is the note title.

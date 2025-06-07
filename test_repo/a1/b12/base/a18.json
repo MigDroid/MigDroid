@@ -1,0 +1,221 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "text": "Not now",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[466,2059][614,2104]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "text": "Not now",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[466,2059][614,2104]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "text": "Not now",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[466,2059][614,2104]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.mozilla.firefox:id/toolbar",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[176,185][609,241]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_edit_url_view",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[176,158][838,268]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,339][862,418]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_url_view",
+        "text": "ics.uci.edu",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[242,158][827,268]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_edit_url_view",
+        "text": "https://ics.uci.edu/",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[176,158][728,268]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UC Irvine homepage",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UC Irvine homepage\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,293][310,433]"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT",
+        "tid": "a18"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a18",
+        "package": "com.duckduckgo.mobile.android",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,339][862,418]"
+    }
+]

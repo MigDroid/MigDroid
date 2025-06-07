@@ -1,0 +1,7 @@
+Functionality under test: The app calculates and displays the per person cost correctly by setting a bill amount of 56.6, a tip percentage of 15, and splitting the bill 4 ways, resulting in a per person cost of 16.27.
+Semantic steps: 
+1. Peripheral Step: Dismiss the initial popup. [Click the Skip button to dismiss the popup offering internet connection and games].
+2. Key Step: Set the bill amount to 56.6. [Input 56.6 in the Bill field, updating the Tip and Total fields].
+3. Peripheral Step: Confirm the tip percentage is 15. [Ensure the Tip % field is set to 15, no change needed].
+4. Key Step: Set the number of ways to split to 4. [Input 4 in the Split Bill field, updating the Per Person field].
+Stop condition: Got the observation that a text field labeled 'Per Person' with text '16.27' has Appear, it is the Per Person field.

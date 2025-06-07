@@ -1,0 +1,97 @@
+[
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "5",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[371,1728][709,1910]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "6",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[709,1728][1047,1910]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "6",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[709,1728][1047,1910]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "1",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[33,1910][371,2092]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Split Total\n65.10",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.vednovak.flutter_tip_calculator",
+        "activity": "com.vednovak.flutter_tip_calculator.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "content-desc",
+            "Split Total\n65.10"
+        ],
+        "bounds": "[540,1103][1047,1480]"
+    }
+]

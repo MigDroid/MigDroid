@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests the app's ability to calculate the total amount including tip based on user input.
+Interaction Steps:
+1. Interaction: Click Accept button to dismiss privacy notice.
+2. Interaction: Input 56.6 Bill field to set bill amount.
+3. Interaction: Input 15 Tip field to set tip percentage.
+4. Interaction: Click Calculate button to compute total amount.
+Stop Condition:
+Got the observation that a TextView subject with text $65.09 has Appear, it is the total amount, which means the calculation is correct.

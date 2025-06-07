@@ -1,0 +1,13 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to and display specific web pages correctly.
+Interaction Steps:
+1. Interaction: Click "Not now" button to dismiss widget prompt.
+2. Interaction: Click "Not now" button to dismiss widget prompt.
+3. Interaction: Click "Not now" button to dismiss widget prompt.
+4. Interaction: Click search bar to initiate URL entry.
+5. Interaction: Enter "https://www.ics.uci.edu" in address bar to navigate to ICS website.
+6. Interaction: Click URL bar to edit current URL.
+7. Interaction: Enter "https://uci.edu" in address bar to navigate to UCI website.
+8. System Event: KEY_BACK to return to previous screen.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo, which means the page has loaded successfully.

@@ -1,0 +1,22 @@
+I have a GUI test written for a $$$category$$$ Android app.
+
+Here are the test steps:
+$$$test_steps$$$
+
+After the interactions, the tester should check whether the test is complete or not, according to the following stop condition:
+Stop Condition: $$$stop_condition$$$
+
+When the app is just opened, the screen is shown as the leftmost side of the attached image.
+The app's screen after executing each interaction is shown in the attached image, from left to right.
+
+You should think step by step. According to the app's screens, do you think some of the steps can be better described?
+
+Your answer should strictly follow the format below:
+Interaction Steps:
+1. [step's intention and operation]. [This step is grouped from [step number] to [step number].]
+2. [step's intention and operation]. [This step is grouped from [step number] to [step number].]
+...
+
+Stop Condition: [Follow this format: Got the observation that a {subject type} subject with {feature} has {Appear/Disappear}, it is {describe the subject}.]
+
+Functionality Under Test: [The functionality being tested by the script. Use no more than 30 words]

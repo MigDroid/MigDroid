@@ -1,0 +1,7 @@
+Functionality Under Test: The script tests the calculation of total bill amount including tip based on user input.
+Test Steps: 
+1. Set the bill amount to 56.6. [Input 56.6 into the Bill Amount field].
+2. Set the tip percentage to 15. [Input 15 into the Tip Percent field].
+3. Calculate the total bill amount. [Click the Calculate Button].
+
+Stop Condition: Got the observation that a TextView subject with text '65.09' has Appeared, it is the Total Bill Amount.

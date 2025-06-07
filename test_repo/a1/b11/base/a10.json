@@ -1,0 +1,86 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button2",
+        "text": "No",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a10",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[547,1296][723,1428]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "net.slions.fulguris.full.fdroid:id/search",
+        "text": "Bookmarks",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a10",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[44,158][636,257]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "net.slions.fulguris.full.fdroid:id/search",
+        "text": "fulguris://home",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a10",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "long_clickable": "True",
+        "bounds": "[44,158][636,257]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a10",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,342][863,428]"
+    }
+]

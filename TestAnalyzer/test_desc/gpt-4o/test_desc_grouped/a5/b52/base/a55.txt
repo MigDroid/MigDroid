@@ -1,0 +1,6 @@
+Functionality Under Test: The script tests the calculation of tip and per person payment based on bill total and tip percentage.
+Test Steps: 
+1. Input bill total, tip percentage, and number of persons. [Input 56.6 Bill Total, 15 Tip Percentage, 4 Number of Persons].
+2. Click Calculate Button to compute final amounts.
+
+Stop Condition: Got the observation that a TextView subject with text '$ 16.27' has Appear, it is the per person payment.

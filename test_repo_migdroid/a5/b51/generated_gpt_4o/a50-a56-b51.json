@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "resource-id": "android:id/button1",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[800,1543][976,1692]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "resource-id": "com.handyapps.tipnsplit:id/bill_amount",
+        "text": "0.00",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[556,317][934,405]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "resource-id": "com.handyapps.tipnsplit:id/nav_tip_n_split",
+        "text": "Calculator",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[0,481][825,657]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/total_amount",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[556,722][934,810]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ]
+    }
+]

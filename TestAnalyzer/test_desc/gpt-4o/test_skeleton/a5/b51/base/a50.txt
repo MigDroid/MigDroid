@@ -1,0 +1,5 @@
+Functionality under test: The app calculates the total amount, including a 15% tip, for a bill of 56.6, resulting in 65.09.
+Semantic steps: 
+1. Key Step: Set the bill amount to '56.6'. [Input '56.6' into the Bill Amount field and observe the Tip Amount field update to '8.49'].
+2. Key Step: Set the tip percentage to '15'. [Ensure the Tip Percent field is set to '15' and observe the Total field update to '65.09'].
+Stop condition: Got the observation that a TextView subject with text '65.09' has Appeared, it is the total amount.

@@ -1,0 +1,5 @@
+Functionality under test: The script tests the app's ability to calculate the tip, total amount, and per person payment based on a $56.6 bill, 15% tip, and 4 persons.
+Semantic steps: 
+1. Key Step: Input bill total, tip percentage, and number of persons. [Enter 56.6 as Bill Total, 15 as Tip Percentage, and 4 as Number of Persons].
+2. Key Step: Click Calculate Button to compute final amounts. [Tap the 'CALCULATE' button to display the calculated tip, total, and per person payment].
+Stop condition: Got the observation that a TextView with text '$ 16.27' has Appear, it is the per person payment.

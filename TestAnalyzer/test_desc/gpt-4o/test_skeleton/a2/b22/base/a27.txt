@@ -1,0 +1,7 @@
+Functionality under test: Test the creation and deletion of a text note in the ToDo List app by creating 'Sample Todo' and ensuring its removal.
+Semantic steps: 
+1. Peripheral Step: Complete the tutorial and grant permissions. [Click NEXT twice, allow permissions, and SKIP the tutorial].
+2. Key Step: Create a new text note. [Click the Add button, select Text, input 'Sample Todo', and save].
+3. Peripheral Step: Return to the main screen. [Click the back button].
+4. Key Step: Delete the created note. [Long press 'Sample Todo', click Delete, and confirm].
+Stop condition: Got the observation that a text note with 'Sample Todo' has disappeared, it is a note.

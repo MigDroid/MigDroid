@@ -1,0 +1,6 @@
+Functionality Under Test: Test the browser's ability to navigate to a specified URL and load the page.
+Test Steps: 
+1. Activate the search bar for input. [Click the search bar to activate input].
+2. Navigate to UCI ICS website. [Send keys 'https://www.ics.uci.edu' to navigate].
+
+Stop Condition: Got the observation that a view subject with content-desc 'UCI ICS logo' has appeared, it is a logo.

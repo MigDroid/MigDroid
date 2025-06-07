@@ -1,0 +1,49 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "ics.uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[231,144][651,282]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.chrome",
+        "activity": "com.google.android.apps.chrome.Main",
+        "resource-id": "com.android.chrome:id/url_bar",
+        "text": "ics.uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[231,144][651,282]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ]
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    }
+]

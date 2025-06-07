@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the ability to navigate to a specific URL and verify page load in the browser app.
+Interaction Steps:
+1. Interaction: Click 'No thanks' button to dismiss notification prompt.
+2. Interaction: Click search box to activate input field.
+3. Interaction: Send keys 'https://www.ics.uci.edu' and enter to navigate to UCI ICS website.
+Stop Condition:
+Got the observation that a view subject with 'UCI ICS logo' has appeared, it is a webpage element, which means the page loaded successfully.

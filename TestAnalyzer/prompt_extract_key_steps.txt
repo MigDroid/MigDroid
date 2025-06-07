@@ -1,0 +1,39 @@
+I have a GUI test written for a $$$category$$$ Android app.
+The functionality under test is: $$$fut$$$
+
+Here are the semantic interaction steps described in human language:
+Semantic Steps:
+$$$semantic_steps$$$
+
+After the interactions, the tester should check whether the test is complete or not, according to the following stop condition:
+Stop Condition: $$$stop_condition$$$
+
+For each step, I provide the app's screen before and after the step.
+
+Also, I define these terms for you:
+Among the semantic steps, perhaps all of the steps are necessary to test this functionality of a similar app. Perhaps some of the steps are unnecessary; we call them peripheral steps.
+
+Key Steps: These are the essential steps required to test the functionality under test of the app and any similar app.
+
+Peripheral steps: These are the steps that are sometimes unnecessary to test the functionality under test of a similar app. These steps are not directly testing the functionality but are required to set up or handle app-specific behavior.
+
+Your task is to first look at each semantic step and their corresponding screen images, then decide if the description aligns with the screen images. If the original description is not correct or clear,
+you should rewrite it in a more clear and correct way, following the original step description's format.
+
+Your second task is to revise the description of the functionality under test. If the original description is not correct or clear, you should rewrite the description in a more clear and correct way.
+
+Your last task is to identify which of the semantic steps are key steps and which are peripheral steps.
+
+Your answer should strictly follow this format:
+New Semantic Steps(Guidance for you: each semantic step corresponds to a new semantic step here, according to the screen images, you should rewrite the description if necessary):
+1. [step's intention and operation].[Detailed operations: summarize the interaction details from the corresponding interaction step(s) here].
+2. [step's intention and operation].[Detailed operations: summarize the interaction details from the corresponding interaction step(s) here].
+...
+Key Step Analysis:
+[For each new semantic step, analyze whether it is a key step or a peripheral step, use no more than 20 words for each step]
+Key Step Ids: [The id of the semantic step that is a key step.]
+Peripheral Step Ids: [The id of the semantic step that is a peripheral step. write down 'None' if there is no peripheral step.]
+
+Stop Condition: [Follow this format: Got the observation that a {describe the subject} with {feature} has {Appear/Disappear}, it is {describe the subject}.]
+
+Functionality Under Test: [The functionality being tested by the script.(revise it to be more clear, detailed, and correct). You need to explain the interaction logic constructed by the key steps and the functionality tested during the interaction, you'd better use the specific data and context in the script to demonstrate. Use no more than 40 words.]

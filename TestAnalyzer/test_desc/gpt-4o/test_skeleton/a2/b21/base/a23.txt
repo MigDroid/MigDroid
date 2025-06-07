@@ -1,0 +1,7 @@
+Functionality under test: Adding a new task named 'Sample Todo' to the To-Do List by initiating task creation, entering the task name, and saving it.
+Semantic steps: 
+1. Peripheral Step: Bypass the tutorial by clicking the Skip button. [Click the "Skip" button on the welcome screen to bypass the tutorial.]
+2. Key Step: Initiate task creation by clicking the Add button. [Tap the "+" button on the main screen to open the new task creation form.]
+3. Key Step: Enter 'Sample Todo' as the task name in the input field. [Type 'Sample Todo' into the "Name" field in the task creation form.]
+4. Key Step: Save the new task by clicking the Okay button. [Press the "Okay" button to save the new task and return to the main screen.]
+Stop condition: Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is the task name.

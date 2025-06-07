@@ -1,0 +1,5 @@
+Functionality under test: The test verifies the Gmail app's search feature by entering 'Automated' and confirming the appearance of relevant email subjects.
+Semantic steps: 
+1. Key Step: Open the search bar by clicking the search icon. [Tap the search icon to display the search bar and recent searches].
+2. Key Step: Enter 'Automated' in the search bar to find emails. [Type 'Automated' in the search bar and view search results].
+Stop condition: Got the observation that a text subject with 'Automated Software Engineering' has appeared, it is an email subject.

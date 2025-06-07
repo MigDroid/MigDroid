@@ -1,0 +1,84 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,136][154,290]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "de.monocles.mail:id/material_drawer_name",
+        "text": "Outbox",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,817][737,870]"
+    },
+    {
+        "class": "android.widget.ImageView",
+        "package": "de.monocles.mail",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "de.monocles.mail:id/search_button",
+        "text": "",
+        "content-desc": "Search",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[705,147][837,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "de.monocles.mail:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "de.monocles.mail",
+        "activity": "com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[198,323][811,382]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

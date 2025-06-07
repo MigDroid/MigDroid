@@ -1,0 +1,8 @@
+Functionality Under Test: The app's ability to calculate the total amount based on bill and tip percentage inputs.
+Test Steps: 
+1. Dismiss the update dialog. [Click OK button to dismiss the update dialog].
+2. Open the calculator tab. [Click Calculator tab to open the calculator].
+3. Input bill amount '56.6'. [Click Bill Amount field, input '5', '6', '.', '6', and confirm].
+4. Input tip percentage '15'. [Click Tip Percent field, input '1', '5', and confirm].
+
+Stop Condition: Got the observation that a total amount subject with text '65.09' has Appear, it is the calculated total.

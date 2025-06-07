@@ -1,0 +1,128 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "android:id/button2",
+        "text": "CANCEL",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[415,1258][628,1407]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/list_content",
+        "text": "",
+        "content-desc": "Tasks",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[11,950][1069,1082]",
+        "children": [
+            {
+                "class": "android.view.View",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/name_background",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[11,950][1069,1082]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/list_name",
+                "text": "Tasks",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,950][267,1082]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.todos:id/new_todo_fab",
+        "text": "",
+        "content-desc": "Add a task",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[882,2076][1036,2230]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.microsoft.todos",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "resource-id": "com.microsoft.todos:id/create_task_edit_text",
+        "text": "Add a task",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[165,1903][901,1962]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.microsoft.todos:id/task_title",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.microsoft.todos",
+        "activity": "com.microsoft.todos.ui.LaunchActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[165,369][871,428]"
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.microsoft.office.outlook",
+        "activity": "com.acompli.acompli.CentralActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Search, , ",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[948,147][1080,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "package": "com.microsoft.office.outlook",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "com.microsoft.office.outlook:id/search_edit_text",
+        "text": "Mail, Events, People, Files",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[198,156][953,266]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.microsoft.office.outlook:id/message_snippet_subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.microsoft.office.outlook",
+        "activity": "com.acompli.acompli.CentralActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[198,646][947,699]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etBillTotal",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "$",
+        "stepping_events": [],
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": ".MainActivity",
+        "event_type": "gui",
+        "action": [
+            "clear_and_send_keys",
+            "56.6"
+        ],
+        "tid": "a55",
+        "long_clickable": "True",
+        "bounds": "[513,549][1038,667]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/etTipAmount",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "%",
+        "stepping_events": [],
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": ".MainActivity",
+        "event_type": "gui",
+        "action": [
+            "clear_and_send_keys_and_hide_keyboard",
+            "15"
+        ],
+        "tid": "a55",
+        "long_clickable": "True",
+        "bounds": "[513,431][1038,549]"
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/btCalculate",
+        "text": "Calculate",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+            "click"
+        ],
+        "activity": ".MainActivity",
+        "package": "com.jpstudiosonline.tipcalculator",
+        "event_type": "gui",
+        "tid": "a55",
+        "long_clickable": "False",
+        "bounds": "[277,998][802,1124]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.jpstudiosonline.tipcalculator:id/tvTotalWithTip",
+        "text": "$ 65.09",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Total with Tip: ",
+        "stepping_events": [
+            {
+                "class": "android.widget.Button",
+                "resource-id": "btCalculate",
+                "id-prefix": "com.jpstudiosonline.tipcalculator:id/",
+                "text": "Calculate",
+                "content-desc": "",
+                "clickable": "true",
+                "password": "false",
+                "parent_text": "",
+                "sibling_text": "",
+                "action": [
+                    "click"
+                ],
+                "activity": ".MainActivity",
+                "package": "com.jpstudiosonline.tipcalculator",
+                "event_type": "stepping"
+            }
+        ],
+        "package": "com.jpstudiosonline.tipcalculator",
+        "activity": ".MainActivity",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "$ 65.09"
+        ],
+        "tid": "a55",
+        "long_clickable": "False",
+        "bounds": "[287,817][1038,888]"
+    }
+]

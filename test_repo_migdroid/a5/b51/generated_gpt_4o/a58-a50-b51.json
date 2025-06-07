@@ -1,0 +1,61 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "resource-id": "com.jarfernandez.tipcalculator:id/billAmountEditText",
+        "text": "Bill Amount",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[88,371][518,502]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.handyapps.tipandsplit.TipAndSplitActivity",
+        "resource-id": "com.jarfernandez.tipcalculator:id/billAmountEditText",
+        "text": "Bill Amount",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[88,371][518,502]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.jarfernandez.tipcalculator:id/resultPerPersonTextView",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.jarfernandez.tipcalculator",
+        "activity": "com.jarfernandez.tipcalculator.activities.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[409,1348][930,1415]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ]
+    }
+]

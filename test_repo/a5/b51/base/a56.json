@@ -1,0 +1,265 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button1",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[800,1543][976,1692]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.handyapps.tipnsplit:id/nav_tip_n_split",
+        "text": "Calculator",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,481][825,657]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/bill_amount",
+        "text": "0.00",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[556,317][934,405]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[315,1140][540,1272]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[540,1140][765,1272]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_dot",
+        "text": ".",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[90,1404][315,1536]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[540,1140][765,1272]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "android:id/button1",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[800,1547][976,1696]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/tip_percentage",
+        "text": "15",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "True",
+        "bounds": "[556,452][934,540]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_1",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[90,1272][315,1404]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/btn_5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[315,1140][540,1272]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "android:id/button1",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[800,1547][976,1696]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.handyapps.tipnsplit:id/total_amount",
+        "text": "65.09",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a56",
+        "package": "com.handyapps.tipnsplit",
+        "activity": "com.handyapps.tipnsplit/com.handyapps.tipandsplit.TipAndSplitActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "65.09"
+        ],
+        "long_clickable": "True",
+        "bounds": "[556,722][934,810]"
+    }
+]

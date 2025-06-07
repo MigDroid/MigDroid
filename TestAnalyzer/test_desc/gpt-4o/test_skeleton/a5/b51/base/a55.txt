@@ -1,0 +1,6 @@
+Functionality under test: The script tests the app's ability to calculate the total bill, including a 15% tip, accurately from a $56.6 bill.
+Semantic steps: 
+1. Key Step: Set the bill amount to '56.6'. [Input '56.6' into the Bill Total field].
+2. Peripheral Step: Set the tip percentage to '15'. [Ensure '15' is input into the Tip Percentage field].
+3. Key Step: Calculate the total bill including tip. [Click the Calculate button].
+Stop condition: Got the observation that a TextView subject with text '$ 65.09' has Appeared, it is the total with tip.

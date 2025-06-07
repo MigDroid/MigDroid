@@ -1,0 +1,81 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.chimbori.milliways",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.chimbori.milliways:id/base_amount_value",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[432,180][1036,312]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.chimbori.milliways",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.chimbori.milliways:id/tip_amount_value",
+        "text": "8.49",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[432,498][1036,634]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.chimbori.milliways",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.chimbori.milliways:id/tip_amount_value",
+        "text": "8.49",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[432,498][1036,634]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.chimbori.milliways:id/total_amount_value",
+        "text": "71.60",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.chimbori.milliways",
+        "activity": "com.chimbori.milliways.MilliwaysActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[432,656][1036,792]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "71.60"
+        ]
+    }
+]

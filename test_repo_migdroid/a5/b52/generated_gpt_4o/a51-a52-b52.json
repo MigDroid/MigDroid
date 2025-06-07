@@ -1,0 +1,183 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button2",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "Total:",
+        "stepping_events": [],
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": ".MainActivity",
+        "event_type": "oracle-prefix",
+        "affix": "prefix",
+        "score": 0.20629163816126878,
+        "action": [
+            "wait_until_text_presence",
+            15,
+            "text",
+            "Skip"
+        ],
+        "tid": "a52"
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "android:id/button2",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[69,946][539,1072]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,203][1035,320]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/billEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,203][1035,320]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "56.6"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+        "text": "# of ways",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,637][1035,754]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/splitBillEditText",
+        "text": "# of ways",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,637][1035,754]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "4"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/tipEditText",
+        "text": "15.0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,349][1035,466]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "resource-id": "com.appsbyvir.tipcalculator:id/tipEditText",
+        "text": "15.0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[695,349][1035,466]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "15"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.appsbyvir.tipcalculator:id/perPersonEditText",
+        "text": "16.27",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.appsbyvir.tipcalculator",
+        "activity": "com.appsbyvir.tipcalculator.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[695,1185][1035,1302]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "16.27"
+        ]
+    }
+]

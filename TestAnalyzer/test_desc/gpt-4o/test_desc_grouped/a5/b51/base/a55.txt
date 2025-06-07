@@ -1,0 +1,7 @@
+Functionality Under Test: The script tests the app's ability to calculate the total bill including tip accurately.
+Test Steps: 
+1. Set the bill amount to '56.6'. [Input '56.6' into the Bill Total field].
+2. Set the tip percentage to '15'. [Input '15' into the Tip Percentage field].
+3. Calculate the total bill including tip. [Click the Calculate button].
+
+Stop Condition: Got the observation that a TextView subject with text '$ 65.09' has Appeared, it is the total with tip.

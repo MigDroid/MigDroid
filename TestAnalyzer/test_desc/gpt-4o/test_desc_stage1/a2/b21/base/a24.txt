@@ -1,0 +1,7 @@
+Functionality Under Test:
+The functionality being tested is the ability to add a new list item in the ToDo List app.
+Interaction Steps:
+1. Interaction: Input 'Sample Todo' in text field to create a new list.
+2. Interaction: Click 'Add' button to add the new list.
+Stop Condition:
+Got the observation that a text view subject with text 'Sample Todo' has appeared, it is the new list item, which means the list was successfully added.

@@ -1,0 +1,11 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to and display specific web pages correctly.
+Interaction Steps:
+1. Interaction: Click No button to dismiss welcome message.
+2. Interaction: Click search bar to initiate search.
+3. Interaction: Input 'https://www.ics.uci.edu' in search bar to navigate to UCI ICS website.
+4. Interaction: Click search bar to focus on it.
+5. Interaction: Input 'https://uci.edu' in search bar to navigate to UCI homepage.
+6. System Event: KEY_BACK to return to previous page.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has Appear, it is the UCI ICS logo, which means the page loaded successfully.

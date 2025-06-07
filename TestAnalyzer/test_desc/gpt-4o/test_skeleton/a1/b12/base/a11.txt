@@ -1,0 +1,6 @@
+Functionality under test: The script tests the browser's ability to navigate to specific URLs, load pages, and use back navigation, ensuring correct display of the UCI ICS website.
+Semantic steps: 
+1. Key Step: Navigate to UCI ICS website. [Click search bar, input 'https://www.ics.uci.edu', and load the page].
+2. Key Step: Navigate to UCI main website. [Click search bar, input 'https://uci.edu', and load the page].
+3. Key Step: Return to previous page. [Press the back button to navigate back to the UCI ICS website].
+Stop condition: Got the observation that a view subject with 'UCI ICS logo' has appeared, it is a logo.

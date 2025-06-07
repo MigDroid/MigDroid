@@ -1,0 +1,144 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "resource-id": "me.bluemail.mail:id/system_message_view_close_ban",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[969,351][1066,448]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "resource-id": "me.bluemail.mail:id/more_menu",
+        "text": "",
+        "content-desc": "More Options",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[970,147][1080,279]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[436,147][1080,279]",
+        "children": [
+            {
+                "class": "android.widget.ImageView",
+                "package": "me.bluemail.mail",
+                "activity": "",
+                "resource-id": "me.bluemail.mail:id/icon",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[458,169][590,257]"
+            },
+            {
+                "class": "android.widget.RelativeLayout",
+                "package": "me.bluemail.mail",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[612,179][1036,246]",
+                "children": [
+                    {
+                        "class": "android.widget.TextView",
+                        "package": "me.bluemail.mail",
+                        "activity": "",
+                        "resource-id": "me.bluemail.mail:id/title",
+                        "text": "Search",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[612,179][1036,246]"
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "package": "me.bluemail.mail",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "me.bluemail.mail:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[269,162][1058,261]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "me.bluemail.mail:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "me.bluemail.mail",
+        "activity": "com.trtf.blue.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[157,355][975,407]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

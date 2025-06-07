@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[891,1605][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[84,366][996,484]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.AddToDoActivity",
+        "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[891,533][1038,680]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": "com.rubenroy.minimaltodo.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[202,265][1080,322]"
+    }
+]

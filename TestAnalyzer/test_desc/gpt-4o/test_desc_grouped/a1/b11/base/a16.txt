@@ -1,0 +1,6 @@
+Functionality Under Test: Verify navigation to a specific URL and successful page load in the browser app.
+Test Steps: 
+1. Dismiss notification prompt. [Click 'No thanks' button].
+2. Navigate to UCI ICS website. [Click search box, send keys 'https://www.ics.uci.edu', and enter].
+
+Stop Condition: Got the observation that a view subject with 'UCI ICS logo' has appeared, it is a webpage element.

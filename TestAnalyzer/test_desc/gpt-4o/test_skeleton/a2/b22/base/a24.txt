@@ -1,0 +1,5 @@
+Functionality under test: The script tests adding and deleting a list item 'Sample Todo' in the ToDo List app, ensuring correct item management.
+Semantic steps: 
+1. Key Step: Add a new list item 'Sample Todo'. [Enter 'Sample Todo' in the text field and tap the 'Add' button].
+2. Key Step: Delete the list item 'Sample Todo'. [Long press 'Sample Todo', tap 'Delete', and confirm deletion].
+Stop condition: Got the observation that a list item with text 'Sample Todo' has Disappeared, it is deleted.

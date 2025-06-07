@@ -1,0 +1,61 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.browser",
+        "activity": "com.android.browser.BrowserActivity",
+        "resource-id": "com.android.browser:id/url",
+        "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[137,63][807,200]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.android.browser",
+        "activity": "com.android.browser.BrowserActivity",
+        "resource-id": "com.android.browser:id/url",
+        "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[137,63][807,200]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Donald Bren School of Information and Computer Sciences blue wordmark",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.android.browser",
+        "activity": "com.android.browser.BrowserActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "content-desc",
+            "Donald Bren School of Information and Computer Sciences blue wordmark"
+        ],
+        "bounds": "[42,231][871,339]"
+    }
+]

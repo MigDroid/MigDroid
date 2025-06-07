@@ -1,0 +1,69 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.google.android.gm:id/open_search",
+        "text": "Search in mail",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a46",
+        "package": "com.google.android.gm",
+        "activity": "com.google.android.gm.ConversationListActivityGmail",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[44,158][1036,290]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.google.android.gm:id/open_search_view_edit_text",
+        "text": "Search in mail",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a46",
+        "package": "com.google.android.gm",
+        "activity": "com.google.android.gm.ConversationListActivityGmail",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[176,158][948,290]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.google.android.gm:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a46",
+        "package": "com.google.android.gm",
+        "activity": "com.google.android.gm.ConversationListActivityGmail",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,846][948,895]"
+    }
+]

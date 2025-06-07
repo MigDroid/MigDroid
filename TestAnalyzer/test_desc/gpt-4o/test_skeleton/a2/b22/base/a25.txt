@@ -1,0 +1,6 @@
+Functionality under test: The script tests adding a task 'Sample Todo' and delete it in the ToDo List app, ensuring task management functionality.
+Semantic steps: 
+1. Key Step: Open new task input. [Click the '+' button to open the new item input field.]
+2. Key Step: Add a new task 'Sample Todo'. [Enter 'Sample Todo' in the 'New Item' field and click the checkmark to save.]
+3. Key Step: Delete the task. [Swipe right on the 'Sample Todo' task item to delete it.]
+Stop condition: Got the observation that a task item with 'Sample Todo' has Disappear, it is a task item.

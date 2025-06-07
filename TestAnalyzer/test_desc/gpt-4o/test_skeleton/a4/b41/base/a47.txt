@@ -1,0 +1,5 @@
+Functionality under test: The test verifies the email search feature by initiating a search and confirming the appearance of relevant email subjects containing 'Automated'.
+Semantic steps: 
+1. Key Step: Initiate email search by clicking the search button. [Tap the magnifying glass icon to open the search interface.]
+2. Key Step: Enter 'Automated' in the search bar to find relevant emails. [Type 'Automated' in the search bar and view the search results.]
+Stop condition: Got the observation that a text subject with 'Automated Software Engineering' has appeared, it is an email subject.

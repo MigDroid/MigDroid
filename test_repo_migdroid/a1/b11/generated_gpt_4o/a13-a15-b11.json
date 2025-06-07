@@ -1,0 +1,25 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "org.mozilla.focus",
+        "activity": "org.mozilla.focus.activity.MainActivity",
+        "resource-id": "org.mozilla.focus:id/next",
+        "text": "Next",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[146,1396][934,1522]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "ResponsibleAIPolicyViolation": "ResponsibleAIPolicyViolation",
+        "event_type": "error_reminder"
+    }
+]

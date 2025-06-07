@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests the browser's ability to navigate to a specified URL and load the webpage correctly.
+Interaction Steps:
+1. Interaction: Click OK button to dismiss dialog.
+2. Interaction: Click Cancel button to dismiss dialog.
+3. Interaction: Click search bar to focus input.
+4. Interaction: Input URL 'https://www.ics.uci.edu' in search bar to navigate to website.
+Stop Condition:
+Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is a webpage element, which means the page loaded successfully.

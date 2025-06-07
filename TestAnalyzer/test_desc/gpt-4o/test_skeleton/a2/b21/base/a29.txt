@@ -1,0 +1,6 @@
+Functionality under test: Adding a new task "Sample Todo" to the ToDo list and verifying its presence by checking if it appears in the list.
+Semantic steps: 
+1. Peripheral Step: Dismiss welcome message and tour prompt. [Click "Let's go" button to dismiss the welcome message and tour prompt].
+2. Key Step: Focus on task input field. [Click on the "Add task to top of list" input field to focus on adding a task].
+3. Key Step: Add new task "Sample Todo". [Input "Sample Todo" into the task input field and press enter to add the new task].
+Stop condition: Got the observation that a task entry with text "Sample Todo" has appeared, it is a new task entry.

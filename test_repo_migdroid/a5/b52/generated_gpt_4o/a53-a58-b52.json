@@ -1,0 +1,194 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "0",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[575,370][948,502]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button5",
+        "text": "5",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[420,1162][660,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[668,1162][908,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/buttonDot",
+        "text": "\u2022",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[172,1438][412,1576]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button6",
+        "text": "6",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[668,1162][908,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/btnDone",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[541,1635][936,1786]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "1",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[575,690][948,822]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/button4",
+        "text": "4",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[172,1162][412,1300]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.pappswork.tipcalculator",
+        "activity": ".ConversationListActivityGmail",
+        "resource-id": "com.pappswork.tipcalculator:id/btnDone",
+        "text": "OK",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[541,1635][936,1786]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.pappswork.tipcalculator:id/edt_value",
+        "text": "16.27",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.pappswork.tipcalculator",
+        "activity": "com.pappswork.tipcalculator.mvvm.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "16.27"
+        ],
+        "bounds": "[575,1170][948,1302]"
+    }
+]

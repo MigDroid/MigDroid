@@ -1,0 +1,106 @@
+[
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "android:id/up",
+        "text": "",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "com.appple.app.email",
+        "activity": "com.fsck.k9.activity.MessageList",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "score": 0.5,
+        "action": [
+            "click"
+        ],
+        "tid": "a42",
+        "long_clickable": "False",
+        "bounds": "[0,105][42,147]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.appple.app.email:id/folder_name",
+        "text": "Outbox",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "com.appple.app.email",
+        "activity": "com.fsck.k9.activity.MessageList",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "score": 0.5,
+        "action": [
+            "click"
+        ],
+        "tid": "a42",
+        "long_clickable": "False",
+        "bounds": "[58,741][920,819]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "com.appple.app.email",
+        "activity": "com.fsck.k9.activity.MessageList",
+        "resource-id": "com.appple.app.email:id/search",
+        "text": "",
+        "content-desc": "Search",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,1668][154,1794]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.appple.app.email",
+        "activity": "com.fsck.k9.activity.MessageList",
+        "resource-id": "android:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[154,76][904,171]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.appple.app.email:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "com.appple.app.email",
+        "activity": "com.fsck.k9.activity.Accounts",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "bounds": "[172,204][853,255]",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ]
+    }
+]

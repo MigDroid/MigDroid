@@ -1,0 +1,11 @@
+Functionality Under Test: Test browser's URL navigation and permission handling capabilities.
+Test Steps: 
+1. Grant initial permission. [Click Allow button to grant permission].
+2. Proceed through initial setup. [Click Continue button twice to proceed].
+3. Bypass additional setup. [Click Skip button to bypass setup].
+4. Deny further permission. [Click Don’t allow button to deny permission].
+5. Navigate to first URL. [Click URL field, input https://www.ics.uci.edu].
+6. Navigate to second URL. [Click URL field, input https://uci.edu].
+7. Return to previous screen. [System Event: KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has Appear, it is a logo.

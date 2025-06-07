@@ -1,0 +1,16 @@
+Functionality Under Test:
+The script tests adding and deleting a task in the ToDo List app.
+Interaction Steps:
+1. Interaction: Click Allow button to grant notification permission.
+2. Interaction: Click Skip button to bypass initial setup.
+3. Interaction: Click Tasks list to open task list.
+4. Interaction: Click New Task button to add a new task.
+5. Interaction: Input Sample Todo text field to enter task name.
+6. Interaction: Click Add Task button to save the task.
+7. System Event: KEY_BACK to navigate back.
+8. Interaction: Long press Sample Todo task to select it.
+9. Interaction: Click More Options icon to open menu.
+10. Interaction: Click Delete Task option to remove the task.
+11. Interaction: Click DELETE button to confirm deletion.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has Disappear, it is a task item, which means the task was successfully deleted.

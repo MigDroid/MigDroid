@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the calculation of per person amount based on bill, tip percentage, and number of people.
+Interaction Steps:
+1. Interaction: Input 56.6 Bill Amount to Set bill amount.
+2. Interaction: Input 15 Tip Percent to Set tip percentage.
+3. Interaction: Input 4 People to Set number of people.
+Stop Condition:
+Got the observation that a TextView subject with text '16.27' has Appear, it is the per person amount, which means the calculation is correct.

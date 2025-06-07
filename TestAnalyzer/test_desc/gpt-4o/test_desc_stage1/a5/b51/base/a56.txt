@@ -1,0 +1,17 @@
+Functionality Under Test:
+The script tests the app's ability to calculate the total amount based on bill and tip percentage inputs.
+Interaction Steps:
+1. Interaction: Click OK button to dismiss the update dialog.
+2. Interaction: Click Calculator tab to open the calculator.
+3. Interaction: Click Bill Amount field to input bill amount.
+4. Interaction: Click 5 button to input '5'.
+5. Interaction: Click 6 button to input '6'.
+6. Interaction: Click . button to input decimal point.
+7. Interaction: Click 6 button to input '6'.
+8. Interaction: Click OK button to confirm bill amount.
+9. Interaction: Click Tip Percent field to input tip percentage.
+10. Interaction: Click 1 button to input '1'.
+11. Interaction: Click 5 button to input '5'.
+12. Interaction: Click OK button to confirm tip percentage.
+Stop Condition:
+Got the observation that a total amount subject with text '65.09' has Appear, it is the calculated total, which means the calculation is correct.

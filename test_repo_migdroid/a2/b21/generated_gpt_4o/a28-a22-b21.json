@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/fab_add",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[863,1567][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/edit_text",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[26,63][1054,172]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "resource-id": "douzifly.list:id/fab_add",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[863,1567][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "douzifly.list:id/txt_thing",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "douzifly.list",
+        "activity": "douzifly.list.ui.home.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[91,262][1004,316]"
+    }
+]

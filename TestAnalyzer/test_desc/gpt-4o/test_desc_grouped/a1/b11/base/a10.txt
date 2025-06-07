@@ -1,0 +1,7 @@
+Functionality Under Test: Test the browser's ability to navigate to a specified URL and load the webpage correctly.
+Test Steps: 
+1. Dismiss the welcome message. [Click No button to dismiss the welcome message].
+2. Focus on the search input. [Click Bookmarks field to focus on search input].
+3. Navigate to UCI website. [Input 'https://www.ics.uci.edu' and press enter in search field].
+
+Stop Condition: Got the observation that a view subject with content description "UCI ICS logo" has appeared, it is the UCI logo.

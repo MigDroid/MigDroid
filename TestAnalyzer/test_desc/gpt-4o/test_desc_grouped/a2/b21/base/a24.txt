@@ -1,0 +1,5 @@
+Functionality Under Test: The ability to add a new list item in the ToDo List app.
+Test Steps: 
+1. Enter 'Sample Todo' in the text field and click 'Add' to create a new list. [Input 'Sample Todo' in text field to create a new list. Click 'Add' button to add the new list.]
+
+Stop Condition: Got the observation that a text view subject with text 'Sample Todo' has appeared, it is the new list item.

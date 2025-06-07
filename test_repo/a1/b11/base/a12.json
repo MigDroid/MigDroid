@@ -1,0 +1,66 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.browser:id/url",
+        "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "com.android.browser",
+        "activity": ".BrowserActivity",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "tid": "a12",
+        "long_clickable": "True",
+        "bounds": "[137,63][807,200]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.android.browser:id/url",
+        "text": "https://www.google.com/webhp?client=ms-android-google&source=android-home",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "com.android.browser",
+        "activity": ".BrowserActivity",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "tid": "a12",
+        "long_clickable": "True",
+        "bounds": "[141,63][940,200]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "com.android.browser",
+        "activity": ".BrowserActivity",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "tid": "a12",
+        "long_clickable": "False",
+        "bounds": "[42,244][871,326]"
+    }
+]

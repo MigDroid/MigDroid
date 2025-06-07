@@ -1,0 +1,6 @@
+Functionality under test: Test the ability to create and save a new text note titled 'Sample Todo' in the ToDo List app, ensuring it appears on the main screen.
+Semantic steps: 
+1. Peripheral Step: Complete initial setup. [Click NEXT button to proceed through the initial setup screen.]
+2. Key Step: Create a new text note. [Click Add button, select Text option, input 'Sample Todo' in text field.]
+3. Key Step: Save the note and return to the main screen. [Click back button twice to save the note and return.]
+Stop condition: Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is the note title.

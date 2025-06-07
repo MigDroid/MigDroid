@@ -1,0 +1,6 @@
+Functionality under test: Adding a new item to the shopping list by opening the entry form, entering 'Sample Todo', and confirming the addition.
+Semantic steps: 
+1. Key Step: Open new item entry form. [Click the '+' button to open the new item entry form].
+2. Key Step: Enter new item description 'Sample Todo'. [Input 'Sample Todo' in the 'New Item' field].
+3. Key Step: Add the new item to the list. [Click the checkmark button to add the new item].
+Stop condition: Got the observation that a list item with 'Sample Todo' has appeared, it is a list item.

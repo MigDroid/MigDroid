@@ -1,0 +1,84 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "com.microsoft.todos",
+        "activity": ".ui.TodoMainActivity",
+        "resource-id": "android:id/button2",
+        "text": "CANCEL",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[415,1258][628,1407]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "package": "com.microsoft.todos",
+        "activity": "com.socialnmobile.colornote.activity.Main",
+        "resource-id": "com.microsoft.todos:id/list_content",
+        "text": "",
+        "content-desc": "Tasks, 1 tasks",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[11,950][1069,1082]",
+        "children": [
+            {
+                "class": "android.view.View",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/name_background",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[11,950][1069,1082]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/list_name",
+                "text": "Tasks",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,950][267,1082]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "com.microsoft.todos",
+                "activity": "",
+                "resource-id": "com.microsoft.todos:id/list_task_counter",
+                "text": "1",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[1014,990][1036,1043]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

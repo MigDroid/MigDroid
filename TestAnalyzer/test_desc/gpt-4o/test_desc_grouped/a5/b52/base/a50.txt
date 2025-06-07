@@ -1,0 +1,7 @@
+Functionality Under Test: Calculate per person amount based on bill, tip percentage, and number of people.
+Test Steps: 
+1. Set the bill amount to 56.6. [Input 56.6 into the Bill Amount field].
+2. Set the tip percentage to 15. [Input 15 into the Tip Percent field].
+3. Set the number of people to 4. [Input 4 into the People field].
+
+Stop Condition: Got the observation that a TextView subject with text '16.27' has Appear, it is the per person amount.

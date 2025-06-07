@@ -1,0 +1,7 @@
+Functionality Under Test:
+The script tests the app's ability to calculate the total amount including tip.
+Interaction Steps:
+1. Interaction: Input 56.6 Bill Amount to calculate total.
+2. Interaction: Input 15 Tip Percent to calculate total.
+Stop Condition:
+Got the observation that a Total Amount subject with text '65.09' has appeared, it is the calculated total, which means the calculation is correct.

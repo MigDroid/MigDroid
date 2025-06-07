@@ -1,0 +1,7 @@
+Functionality under test: Test adding a note 'Sample Todo' and deleting it in the ToDo List app, ensuring the note disappears.
+Semantic steps: 
+1. Peripheral Step: Grant notification permission. [Click the "Allow" button on the notification permission dialog to grant permission].
+2. Key Step: Add a new note with content 'Sample Todo'. [Click the "+" button, focus on the text field, input 'Sample Todo'].
+3. Peripheral Step: Return to the main screen. [Click the "Navigate up" button to return to the main screen].
+4. Key Step: Delete the note 'Sample Todo'. [Long press 'Sample Todo', click the "Delete" button, confirm deletion].
+Stop condition: Got the observation that a text subject with 'Sample Todo' has Disappear, it is a note.

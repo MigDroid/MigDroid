@@ -1,0 +1,198 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "org.mozilla.focus:id/skip",
+        "text": "Skip",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "action": [
+            "click"
+        ],
+        "activity": ".activity.MainActivity",
+        "package": "org.mozilla.focus",
+        "event_type": "gui",
+        "tid": "a15",
+        "long_clickable": "False",
+        "bounds": "[0,63][231,189]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "org.mozilla.focus:id/urlView",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [
+            {
+                "class": "android.widget.Button",
+                "resource-id": "skip",
+                "id-prefix": "org.mozilla.focus:id/",
+                "text": "Skip",
+                "content-desc": "",
+                "clickable": "true",
+                "password": "false",
+                "parent_text": "",
+                "sibling_text": "",
+                "action": [
+                    "click"
+                ],
+                "activity": ".activity.MainActivity",
+                "package": "org.mozilla.focus",
+                "event_type": "stepping"
+            }
+        ],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "tid": "a15",
+        "long_clickable": "True",
+        "bounds": "[21,86][954,191]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "org.mozilla.focus:id/urlView",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ],
+        "tid": "a15",
+        "long_clickable": "True",
+        "bounds": "[21,86][954,191]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "tid": "a15",
+        "long_clickable": "False",
+        "bounds": "[42,254][871,336]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.mozilla.focus:id/display_url",
+        "text": "https://ics.uci.edu/",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "tid": "a15",
+        "long_clickable": "True",
+        "bounds": "[131,63][922,210]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "org.mozilla.focus:id/urlView",
+        "text": "https://ics.uci.edu/",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ],
+        "tid": "a15",
+        "long_clickable": "True",
+        "bounds": "[21,86][954,191]"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UC Irvine homepage",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UC Irvine homepage\"]"
+        ],
+        "tid": "a15",
+        "long_clickable": "False",
+        "bounds": "[0,212][299,349]"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT",
+        "tid": "a15"
+    },
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "UCI ICS logo",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "stepping_events": [],
+        "package": "org.mozilla.focus",
+        "activity": ".activity.MainActivity",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.view.View[@content-desc=\"UCI ICS logo\"]"
+        ],
+        "tid": "a15",
+        "long_clickable": "False",
+        "bounds": "[42,254][871,336]"
+    }
+]

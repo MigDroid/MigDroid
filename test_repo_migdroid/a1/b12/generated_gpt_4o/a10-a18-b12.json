@@ -1,0 +1,446 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "org.mozilla.firefox",
+        "activity": "com.android.permissioncontroller.role.ui.RequestRoleActivity",
+        "resource-id": "android:id/button2",
+        "text": "Cancel",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[486,1642][670,1791]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,2016][1036,2148]",
+        "children": [
+            {
+                "class": "android.widget.TextView",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "Not now",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[466,2059][614,2104]"
+            },
+            {
+                "class": "android.widget.Button",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,2026][1036,2137]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,2016][1036,2148]",
+        "children": [
+            {
+                "class": "android.widget.TextView",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "Not now",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[466,2059][614,2104]"
+            },
+            {
+                "class": "android.widget.Button",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,2026][1036,2137]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,2016][1036,2148]",
+        "children": [
+            {
+                "class": "android.widget.TextView",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "Not now",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[466,2059][614,2104]"
+            },
+            {
+                "class": "android.widget.Button",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[44,2026][1036,2137]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/toolbar_wrapper",
+        "text": "",
+        "content-desc": "Search or enter address",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[22,158][849,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_edit_url_view",
+        "text": "Search or enter address",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[176,158][838,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://uci.edu"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_url_view",
+        "text": "uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[242,158][827,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_url_view",
+        "text": "uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[242,158][827,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_url_view",
+        "text": "uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[242,158][827,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_edit_url_view",
+        "text": "https://uci.edu/",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[176,158][728,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://www.ics.uci.edu"
+        ]
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "android.widget.TextView",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "org.mozilla.firefox:id/mozac_browser_toolbar_url_view",
+        "text": "uci.edu",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[242,158][827,268]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "SYS_EVENT",
+        "action": [
+            "KEY_BACK"
+        ],
+        "event_type": "SYS_EVENT"
+    },
+    {
+        "class": "android.view.View",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "cfr.dismiss",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[879,771][1011,903]",
+        "children": [
+            {
+                "class": "android.view.View",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "Dismiss",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[912,804][978,870]"
+            },
+            {
+                "class": "android.widget.Button",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[879,771][1011,903]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.View",
+        "package": "org.mozilla.firefox",
+        "activity": ".App",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,1979][1036,2133]",
+        "children": [
+            {
+                "class": "android.widget.TextView",
+                "package": "org.mozilla.firefox",
+                "activity": "",
+                "resource-id": "",
+                "text": "Home - UC Irvine Donald Bren School of Information & Computer Sciences",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[242,2029][992,2084]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Image",
+        "resource-id": "",
+        "text": "Donald Bren School of Information and Computer Sciences blue wordmark",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "org.mozilla.firefox",
+        "activity": "org.mozilla.firefox.App",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Donald Bren School of Information and Computer Sciences blue wordmark"
+        ],
+        "bounds": "[44,326][862,431]"
+    }
+]

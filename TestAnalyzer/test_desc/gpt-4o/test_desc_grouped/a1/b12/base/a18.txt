@@ -1,0 +1,8 @@
+Functionality Under Test: Test browser's ability to navigate and display specific web pages correctly.
+Test Steps: 
+1. Dismiss widget prompts. [Click "Not now" button three times to dismiss widget prompts].
+2. Navigate to ICS website. [Click search bar, enter "https://www.ics.uci.edu" in address bar].
+3. Navigate to UCI website. [Click URL bar, enter "https://uci.edu" in address bar].
+4. Return to previous screen. [Press KEY_BACK].
+
+Stop Condition: Got the observation that a view subject with content-desc "UCI ICS logo" has appeared, it is the UCI ICS logo.

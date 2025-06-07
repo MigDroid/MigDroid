@@ -1,0 +1,6 @@
+Functionality under test: Calculate the per person amount based on a bill of 56.6, a 15% tip, and 4 people, resulting in 16.27 per person.
+Semantic steps: 
+1. Key Step: Set the bill amount to 56.6. [Input 56.6 into the Bill Amount field, updating the total and per person amount].
+2. Key Step: Set the tip percentage to 15. [Input 15 into the Tip Percent field, updating the tip amount].
+3. Key Step: Set the number of people to 4. [Input 4 into the People field, updating the per person amount].
+Stop condition: Got the observation that a TextView subject with text '16.27' has Appear, it is the per person amount.

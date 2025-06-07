@@ -1,0 +1,41 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "resource-id": "kdk.android.simplydo:id/AddListEditText",
+        "text": "New List Name",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[0,129][956,259]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "kdk.android.simplydo:id/text1",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[26,285][971,363]"
+    }
+]

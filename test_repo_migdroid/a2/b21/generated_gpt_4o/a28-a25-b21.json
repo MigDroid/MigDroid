@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "com.woefe.shoppinglist",
+        "activity": "com.woefe.shoppinglist.activity.MainActivity",
+        "resource-id": "com.woefe.shoppinglist:id/fab_add",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[891,1605][1038,1752]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.woefe.shoppinglist",
+        "activity": "com.woefe.shoppinglist.activity.MainActivity",
+        "resource-id": "com.woefe.shoppinglist:id/new_item_description",
+        "text": "New Item",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[5,1544][1075,1662]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.woefe.shoppinglist:id/new_item_description",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "package": "com.woefe.shoppinglist",
+        "activity": "com.woefe.shoppinglist.activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "bounds": "[5,1544][1075,1662]"
+    }
+]

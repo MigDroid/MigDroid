@@ -1,0 +1,7 @@
+Functionality under test: The test evaluates the browser's ability to navigate to specific URLs and correctly display the ICS and UCI websites, including back navigation functionality.
+Semantic steps: 
+1. Peripheral Step: Bypass introduction screen. [Click the "Skip" button on the introduction screen to proceed to the main browser interface].
+2. Key Step: Navigate to ICS website. [Click the URL bar, enter 'https://www.ics.uci.edu', and select the displayed URL to load the page].
+3. Key Step: Navigate to UCI homepage. [Enter 'https://uci.edu' in the URL bar and load the UCI homepage].
+4. Key Step: Return to previous page. [Press the device's back button to navigate back to the ICS website].
+Stop condition: Got the observation that a view subject with content-desc 'UCI ICS logo' has appeared, it is the ICS logo.

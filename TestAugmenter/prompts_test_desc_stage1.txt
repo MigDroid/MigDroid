@@ -1,0 +1,15 @@
+I have a $$$category$$$ Android app.
+I have a GUI test script that tests a certain functionality of this app. The test consists of GUI interactions (GUI events) and assertions (oracle events). The script is as follows:
+$$$actions$$$
+After all these actions, the tester checks whether the test is successful by verifying this stop checking event:
+$$$stop_checking_event$$$
+If the stop condition conveyed by the stop checking event is satisfied, the tester should stop the test.
+We also provide the app's screens before and after the interactions, in the attached image, the left side shows the app's screen when it is just opened, and the right side shows the app's screen after executing all the interactions.
+By observing the screens, you should know more about what each interaction does, and what the stop condition means.
+Now describe the test script, your output should strictly follow this format:
+Interaction Steps(Summarize each item in the script as a step below, use no more than 20 words for each step): 
+1. [If event_type is 'gui', follow this format: Interaction: {Action(if the action is to input, you should mention the input content here)} {Subject(You should describe the subject with your own words, no more than 5 words)} to {Intention}, if event_type is 'stop checking', ignore it. If event_type is 'system', follow this format: System Event: {Action} to {Intention}.]
+
+Stop Condition: [describe the stop condition conveyed by the stop checking event, based on all the previous steps, use no more than 30 words. Follow this format: Got the observation that a {subject type} subject with {feature} has {Appear/Disappear}, it is {describe the subject}, which means {...}.]
+
+Functionality Under Test: [The functionality being tested by the script. Use no more than 30 words]

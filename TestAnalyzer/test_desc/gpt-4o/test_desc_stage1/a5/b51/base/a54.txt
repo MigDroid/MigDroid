@@ -1,0 +1,8 @@
+Functionality Under Test:
+The script tests the calculation of total bill amount including tip based on user input.
+Interaction Steps:
+1. Interaction: Input 56.6 Bill Amount field to Set bill amount.
+2. Interaction: Input 15 Tip Percent field to Set tip percentage.
+3. Interaction: Click Calculate Button to Compute total bill.
+Stop Condition:
+Got the observation that a TextView subject with text '65.09' has Appeared, it is the Total Bill Amount, which means the calculation is correct.

@@ -1,0 +1,86 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.rubenroy.minimaltodo:id/addToDoItemFAB",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a21",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[891,1605][1038,1752]"
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.rubenroy.minimaltodo:id/userToDoEditText",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "Title",
+        "sibling_text": "",
+        "tid": "a21",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": ".AddToDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Sample Todo"
+        ],
+        "long_clickable": "True",
+        "bounds": "[84,366][996,484]"
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.rubenroy.minimaltodo:id/makeToDoFloatingActionButton",
+        "text": "",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a21",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": ".AddToDoActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[891,533][1038,680]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.rubenroy.minimaltodo:id/toDoListItemTextview",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a21",
+        "package": "com.rubenroy.minimaltodo",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "xpath",
+            "//android.widget.TextView[@text=\"Sample Todo\"]"
+        ],
+        "long_clickable": "False",
+        "bounds": "[202,265][1080,322]"
+    }
+]

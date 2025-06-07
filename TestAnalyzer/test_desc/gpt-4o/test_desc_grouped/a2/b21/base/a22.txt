@@ -1,0 +1,7 @@
+Functionality Under Test: Adding a new task to the ToDo list and verifying its presence.
+Test Steps: 
+1. Open new task input by clicking Add Button. [Click Add Button to open new task input].
+2. Enter task title 'Sample Todo' in the Text Field. [Input 'Sample Todo' Text Field to enter task title].
+3. Save new task by clicking Add Button. [Click Add Button to save new task].
+
+Stop Condition: Got the observation that a TextView subject with text 'Sample Todo' has Appeared, it is a task item.

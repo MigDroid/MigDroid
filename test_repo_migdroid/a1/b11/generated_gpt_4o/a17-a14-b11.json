@@ -1,0 +1,25 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "package": "de.baumann.browser",
+        "activity": "de.baumann.browser.Activity.BrowserActivity",
+        "resource-id": "de.baumann.browser:id/floatButton_ok",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[617,1664][727,1774]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "ResponsibleAIPolicyViolation": "ResponsibleAIPolicyViolation",
+        "event_type": "error_reminder"
+    }
+]

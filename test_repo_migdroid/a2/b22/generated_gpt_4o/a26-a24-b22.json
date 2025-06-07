@@ -1,0 +1,159 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "resource-id": "kdk.android.simplydo:id/AddListEditText",
+        "text": "New List Name",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[0,129][956,259]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[0,259][1080,389]",
+        "children": [
+            {
+                "class": "android.widget.TextView",
+                "package": "kdk.android.simplydo",
+                "activity": "",
+                "resource-id": "kdk.android.simplydo:id/text1",
+                "text": "Sample Todo",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[26,285][971,363]"
+            },
+            {
+                "class": "android.widget.TextView",
+                "package": "kdk.android.simplydo",
+                "activity": "",
+                "resource-id": "kdk.android.simplydo:id/text2",
+                "text": "(0/0)",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[971,294][1080,358]"
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "long_press"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[161,998][924,1166]",
+        "children": [
+            {
+                "class": "android.widget.RelativeLayout",
+                "package": "kdk.android.simplydo",
+                "activity": "",
+                "resource-id": "",
+                "text": "",
+                "content-desc": "",
+                "clickable": "false",
+                "checkable": "false",
+                "checked": "false",
+                "focused": "false",
+                "enabled": "true",
+                "bounds": "[187,1043][898,1121]",
+                "children": [
+                    {
+                        "class": "android.widget.TextView",
+                        "package": "kdk.android.simplydo",
+                        "activity": "",
+                        "resource-id": "android:id/title",
+                        "text": "Delete",
+                        "content-desc": "",
+                        "clickable": "false",
+                        "checkable": "false",
+                        "checked": "false",
+                        "focused": "false",
+                        "enabled": "true",
+                        "bounds": "[187,1043][898,1121]"
+                    }
+                ]
+            }
+        ],
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "resource-id": "android:id/button1",
+        "text": "Yes",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[106,1027][542,1153]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "kdk.android.simplydo",
+        "activity": "kdk.android.simplydo.SimplyDoActivity",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

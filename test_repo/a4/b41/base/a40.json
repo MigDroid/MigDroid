@@ -1,0 +1,113 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[0,136][154,290]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "de.monocles.mail:id/material_drawer_name",
+        "text": "Outbox",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui-prefix",
+        "affix": "prefix",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,817][737,870]"
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "de.monocles.mail:id/search_button",
+        "text": "",
+        "content-desc": "Search",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "long_clickable": "False",
+        "bounds": "[705,147][837,279]"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "de.monocles.mail:id/search_src_text",
+        "text": "   Search",
+        "content-desc": "",
+        "clickable": "True",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.MessageList",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Automated"
+        ],
+        "long_clickable": "True",
+        "bounds": "[220,162][794,261]"
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "de.monocles.mail:id/subject",
+        "text": "Automated Software Engineering",
+        "content-desc": "",
+        "clickable": "False",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "a40",
+        "package": "de.monocles.mail",
+        "activity": "de.monocles.mail/com.fsck.k9.activity.Search",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_text_presence",
+            10,
+            "text",
+            "Automated Software Engineering"
+        ],
+        "long_clickable": "False",
+        "bounds": "[198,323][841,382]"
+    }
+]

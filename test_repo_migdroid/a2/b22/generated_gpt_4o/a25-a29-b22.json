@@ -1,0 +1,116 @@
+[
+    {
+        "class": "android.widget.EditText",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "mat-input-0",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "true",
+        "enabled": "true",
+        "bounds": "[22,422][951,545]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "Sample Todo"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "Ready to work!",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[313,724][767,826]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "No thanks",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[481,1381][778,1483]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "Never again",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[299,1329][632,1434]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "package": "com.superproductivity.superproductivity",
+        "activity": ".FullscreenActivity",
+        "resource-id": "",
+        "text": "Sample Todo",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[134,408][1020,490]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "swipe_right"
+        ]
+    },
+    {
+        "class": "",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "",
+        "password": "false",
+        "action": [
+            "wait_until_text_invisible",
+            10,
+            "text",
+            "Sample Todo"
+        ],
+        "package": "com.superproductivity.superproductivity",
+        "activity": "com.superproductivity.superproductivity.FullscreenActivity",
+        "ignorable": "false",
+        "event_type": "oracle"
+    }
+]

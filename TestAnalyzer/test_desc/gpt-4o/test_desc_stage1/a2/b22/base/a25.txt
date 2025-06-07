@@ -1,0 +1,9 @@
+Functionality Under Test:
+The script tests adding and completing a task in the ToDo List app.
+Interaction Steps:
+1. Interaction: Click Add button to open new item input.
+2. Interaction: Input 'Sample Todo' New item description to add a new task.
+3. Interaction: Click Done button to save the new task.
+4. Interaction: Swipe right Task item to mark it as completed.
+Stop Condition:
+Got the observation that a text subject with 'Sample Todo' has Disappear, it is a task item, which means the task is successfully marked as completed and removed.

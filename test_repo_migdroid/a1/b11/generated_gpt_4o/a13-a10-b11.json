@@ -1,0 +1,80 @@
+[
+    {
+        "class": "android.widget.Button",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": "com.android.permissioncontroller.role.ui.RequestRoleActivity",
+        "resource-id": "android:id/button2",
+        "text": "No",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[547,1296][723,1428]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": "com.android.permissioncontroller.role.ui.RequestRoleActivity",
+        "resource-id": "net.slions.fulguris.full.fdroid:id/search",
+        "text": "Bookmarks",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,158][636,257]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ],
+        "stepping": "yes"
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": "com.android.permissioncontroller.role.ui.RequestRoleActivity",
+        "resource-id": "net.slions.fulguris.full.fdroid:id/search",
+        "text": "Bookmarks",
+        "content-desc": "",
+        "clickable": "true",
+        "checkable": "false",
+        "checked": "false",
+        "focused": "false",
+        "enabled": "true",
+        "bounds": "[44,158][636,257]",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "https://ics.uci.edu"
+        ]
+    },
+    {
+        "class": "android.widget.Image",
+        "resource-id": "",
+        "text": "Donald Bren School of Information and Computer Sciences blue wordmark",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "package": "net.slions.fulguris.full.fdroid",
+        "activity": "fulguris.activity.SplashActivity",
+        "ignorable": "false",
+        "event_type": "oracle",
+        "action": [
+            "wait_until_element_presence",
+            10,
+            "text",
+            "Donald Bren School of Information and Computer Sciences blue wordmark"
+        ],
+        "bounds": "[44,331][863,439]"
+    }
+]

@@ -1,0 +1,4 @@
+Functionality under test: The functionality being tested is the ability to add a new list item named 'Sample Todo' to the ToDo List app by entering the name in the text field and clicking the 'Add' button.
+Semantic steps: 
+1. Key Step: Enter 'Sample Todo' in the text field and click 'Add' to create a new list item. [Input 'Sample Todo' in the 'New List Name' text field. Click the 'Add' button to add the new list item.]
+Stop condition: Got the observation that a text view subject with text 'Sample Todo' has appeared, it is the new list item.

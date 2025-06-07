@@ -1,0 +1,5 @@
+Functionality under test: Verify that the browser app can navigate to 'https://www.ics.uci.edu' and successfully load the UCI ICS webpage.
+Semantic steps: 
+1. Peripheral Step: Dismiss notification prompt. [Click 'No thanks' button on the Chrome notifications prompt].
+2. Key Step: Navigate to UCI ICS website. [Click search box, type 'https://www.ics.uci.edu', and press enter].
+Stop condition: Got the observation that a webpage element with 'UCI ICS logo' has appeared, it is a webpage element.
