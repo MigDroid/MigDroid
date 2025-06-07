@@ -1,2 +1,0 @@
-# MigDroid
-Coming soon.
